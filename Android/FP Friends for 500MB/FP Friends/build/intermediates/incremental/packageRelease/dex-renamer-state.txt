@@ -1,0 +1,4 @@
+#Wed Oct 04 00:57:27 EDT 2017
+base.0=C\:\\Users\\Administrator\\Desktop\\Development\\FreedomPop\\FP Friends for 500MB\\Android\\FP Friends for 500MB\\FP Friends\\build\\intermediates\\transforms\\dex\\release\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\Users\\Administrator\\Desktop\\Development\\FreedomPop\\FP Friends for 500MB\\Android\\FP Friends for 500MB\\FP Friends\\build\\intermediates\\transforms\\dex\\release\\folders\\1000\\1f\\main\\classes.dex
