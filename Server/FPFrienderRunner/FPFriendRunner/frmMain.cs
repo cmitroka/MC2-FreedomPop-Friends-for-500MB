@@ -47,8 +47,17 @@ namespace FPFriender
             {
                 System.Diagnostics.EventLog.WriteEntry("FPFriender", "App started with cmd line " + commands[0].ToString(), System.Diagnostics.EventLogEntryType.Information);
                 LoadConfig();
-                txtEmail.Text = commands[0].ToString();
-                pEmailGroups = commands[1].ToString();
+                String trueargsin = "";
+                foreach (string value in commands)
+                {
+                    trueargsin = trueargsin+value+",";
+                }
+                string[] argsin = trueargsin.Split(',');
+                txtEmail.Text = argsin[0].ToString();
+                pEmailGroups = argsin[1].ToString();
+
+                
+                
                 if (pEmailGroups.ToUpper() == "FIRST5")
 	            {
 		            txtAccountsToUse.Text="00,01,03,04,05";
@@ -330,8 +339,11 @@ namespace FPFriender
                 pOK = DoHandleValidateBytesSize(pValidateBytesSizeDataTextarea, pLogin + " - Setting Friend Text Area; probably needs reactivation.");
                 if (pOK == false) return;
                 int[] Coords4 = GetCoordsFromString(pFriendEmailCoordinate);
+                
+                //FIX THIS
+                
                 DoUI.DoMouseClick(Coords4[0], Coords4[1]);
-                DoDelay(1);                
+                DoDelay(10);                
                 //FrameDoc = IEHelper.ConvertIEToIHTMLDocument2(IE, "input_13");
                 //IEHelper.SimInput(FrameDoc, IEHelper.HTMLTagNames.Ztextarea, IEHelper.HTMLAttributes.Zid, "input_13", "mc2tab00@gmail.com");
                 DoHandleTyper(txtEmail.Text + "{TAB}{ENTER}");
