@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="~/Styles/SiteMin.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form runat="server">
+        <div class="page">
+            <div class="header">
+                <table style="width: 100%;">
+                    <tr>
+                        <td style="text-align: left;vertical-align: top;"><h1 style="color: white;">Template Site</h1></td>
+                        <td style="text-align: right;vertical-align: top;"><a href="AdminWeb.htm">
+                        <asp:Image ID="Image1" runat="server" Height="48px" ImageUrl="~/Images/Other/CornerIcon.png" /></a></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="menu">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu"
+                    EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home" />
+                        <asp:MenuItem NavigateUrl="~/About.aspx" Text="About" />
+                        <%--                        <asp:MenuItem NavigateUrl="~/FileArchive.aspx" Text="Download"/>--%>
+                        <asp:MenuItem Text="Contact">
+                            <asp:MenuItem Text="Questions/Comments" NavigateUrl="~/Feedback.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Report a Bug" NavigateUrl="~/ReportError.aspx"></asp:MenuItem>
+                        </asp:MenuItem>
+                    </Items>
+                </asp:Menu>
+            </div>
+
+            <div class="main">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                </asp:ContentPlaceHolder>
+                <img style="height: auto;width: auto; max-width: 1000%" src="Images/Other/Transparent.gif" />
+            </div>
+        </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,17 @@
+C:\Users\Administrator\Desktop\iTunes Connect Project\Website and Service\Template\bin\TemplateApp.dll.config
+C:\Users\Administrator\Desktop\iTunes Connect Project\Website and Service\Template\bin\TemplateApp.dll
+C:\Users\Administrator\Desktop\iTunes Connect Project\Website and Service\Template\bin\TemplateApp.pdb
+C:\Users\Administrator\Desktop\iTunes Connect Project\Website and Service\Template\obj\Debug\TemplateApp.dll
+C:\Users\Administrator\Desktop\iTunes Connect Project\Website and Service\Template\obj\Debug\TemplateApp.pdb
+C:\Users\Administrator\Desktop\iTunes Connect Project\Website and Service Template V2\Template\bin\TemplateApp.dll.config
+C:\Users\Administrator\Desktop\iTunes Connect Project\Website and Service Template V2\Template\bin\TemplateApp.dll
+C:\Users\Administrator\Desktop\iTunes Connect Project\Website and Service Template V2\Template\bin\TemplateApp.pdb
+C:\Users\Administrator\Desktop\iTunes Connect Project\Website and Service Template V2\Template\obj\Debug\Template.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\iTunes Connect Project\Website and Service Template V2\Template\obj\Debug\TemplateApp.dll
+C:\Users\Administrator\Desktop\iTunes Connect Project\Website and Service Template V2\Template\obj\Debug\TemplateApp.pdb
+C:\Users\Administrator\Desktop\Website and Service Template V2\Template\obj\Debug\Template.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Website and Service Template V2\Template\bin\App.dll.config
+C:\Users\Administrator\Desktop\Website and Service Template V2\Template\bin\App.dll
+C:\Users\Administrator\Desktop\Website and Service Template V2\Template\bin\App.pdb
+C:\Users\Administrator\Desktop\Website and Service Template V2\Template\obj\Debug\App.dll
+C:\Users\Administrator\Desktop\Website and Service Template V2\Template\obj\Debug\App.pdb

@@ -1,0 +1,3 @@
+C:\Users\Administrator\Desktop\Development\FreedomPop\FPFriend\Server\FPFrienderRunner\FPFriendRunner\bin\Debug\FPFriender.exe.config
+C:\Users\Administrator\Desktop\Development\FreedomPop\FPFriend\Server\FPFrienderRunner\FPFriendRunner\obj\Debug\FPFriender.exe
+C:\Users\Administrator\Desktop\Development\FreedomPop\FPFriend\Server\FPFrienderRunner\FPFriendRunner\obj\Debug\FPFriender.pdb

@@ -1,0 +1,27 @@
+c:\users\administrator\desktop\documents\visual studio 2013\Projects\FPWatcher\FPWatcher\bin\Debug\FPWatcher.exe.config
+c:\users\administrator\desktop\documents\visual studio 2013\Projects\FPWatcher\FPWatcher\obj\Debug\FPWatcher.csprojResolveAssemblyReference.cache
+c:\users\administrator\desktop\documents\visual studio 2013\Projects\FPWatcher\FPWatcher\obj\Debug\FPWatcher.Form1.resources
+c:\users\administrator\desktop\documents\visual studio 2013\Projects\FPWatcher\FPWatcher\obj\Debug\FPWatcher.Properties.Resources.resources
+c:\users\administrator\desktop\documents\visual studio 2013\Projects\FPWatcher\FPWatcher\obj\Debug\FPWatcher.csproj.GenerateResource.Cache
+c:\users\administrator\desktop\documents\visual studio 2013\Projects\FPWatcher\FPWatcher\bin\Debug\FPWatcher.exe
+c:\users\administrator\desktop\documents\visual studio 2013\Projects\FPWatcher\FPWatcher\bin\Debug\FPWatcher.pdb
+c:\users\administrator\desktop\documents\visual studio 2013\Projects\FPWatcher\FPWatcher\obj\Debug\FPWatcher.exe
+c:\users\administrator\desktop\documents\visual studio 2013\Projects\FPWatcher\FPWatcher\obj\Debug\FPWatcher.pdb
+C:\Users\Administrator\Desktop\FPWatcher\FPWatcher\bin\Debug\FPWatcher.exe.config
+C:\Users\Administrator\Desktop\FPWatcher\FPWatcher\obj\Debug\FPWatcher.exe
+C:\Users\Administrator\Desktop\FPWatcher\FPWatcher\obj\Debug\FPWatcher.pdb
+C:\Users\Administrator\Desktop\FPWatcher\FPWatcher\bin\Debug\FPWatcher.exe
+C:\Users\Administrator\Desktop\FPWatcher\FPWatcher\bin\Debug\FPWatcher.pdb
+C:\Users\Administrator\Desktop\FPWatcher\FPWatcher\obj\Debug\FPWatcher.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\FPWatcher\FPWatcher\obj\Debug\FPWatcher.Form1.resources
+C:\Users\Administrator\Desktop\FPWatcher\FPWatcher\obj\Debug\FPWatcher.Properties.Resources.resources
+C:\Users\Administrator\Desktop\FPWatcher\FPWatcher\obj\Debug\FPWatcher.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\Development\FreedomPop\FPFriend\Server\FPWatcher\FPWatcher\bin\Debug\FPWatcher.exe.config
+C:\Users\Administrator\Desktop\Development\FreedomPop\FPFriend\Server\FPWatcher\FPWatcher\obj\Debug\FPWatcher.exe
+C:\Users\Administrator\Desktop\Development\FreedomPop\FPFriend\Server\FPWatcher\FPWatcher\obj\Debug\FPWatcher.pdb
+C:\Users\Administrator\Desktop\Development\FreedomPop\FPFriend\Server\FPWatcher\FPWatcher\bin\Debug\FPWatcher.exe
+C:\Users\Administrator\Desktop\Development\FreedomPop\FPFriend\Server\FPWatcher\FPWatcher\bin\Debug\FPWatcher.pdb
+C:\Users\Administrator\Desktop\Development\FreedomPop\FPFriend\Server\FPWatcher\FPWatcher\obj\Debug\FPWatcher.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Development\FreedomPop\FPFriend\Server\FPWatcher\FPWatcher\obj\Debug\FPWatcher.Form1.resources
+C:\Users\Administrator\Desktop\Development\FreedomPop\FPFriend\Server\FPWatcher\FPWatcher\obj\Debug\FPWatcher.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Development\FreedomPop\FPFriend\Server\FPWatcher\FPWatcher\obj\Debug\FPWatcher.csproj.GenerateResource.Cache

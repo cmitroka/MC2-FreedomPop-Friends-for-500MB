@@ -1,0 +1,6 @@
+C:\Users\Administrator\Desktop\Development\FreedomPop\FPFriend\Server\Website and Service00\FPFriender\bin\App.dll.config
+C:\Users\Administrator\Desktop\Development\FreedomPop\FPFriend\Server\Website and Service00\FPFriender\bin\App.dll
+C:\Users\Administrator\Desktop\Development\FreedomPop\FPFriend\Server\Website and Service00\FPFriender\bin\App.pdb
+C:\Users\Administrator\Desktop\Development\FreedomPop\FPFriend\Server\Website and Service00\FPFriender\obj\Debug\App.dll
+C:\Users\Administrator\Desktop\Development\FreedomPop\FPFriend\Server\Website and Service00\FPFriender\obj\Debug\App.pdb
+C:\Users\Administrator\Desktop\Development\FreedomPop\FPFriend\Server\Website and Service00\FPFriender\obj\Debug\FPFriender - IIS.csprojResolveAssemblyReference.cache

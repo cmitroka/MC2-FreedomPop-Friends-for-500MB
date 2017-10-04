@@ -1,0 +1,4 @@
+First check at login page (Ex: 17, 95, 100, 40, 1342
+Click coords to set the email textbox (Ex: 107, 165
+Second check at Invite Friends page (Ex: 12, 144, 200, 30, 3130)
+Click coords to set the friends email textbox (Ex: 677,477
