@@ -175,8 +175,8 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>
-    </PostBuildEvent>
+    <PostBuildEvent>xcopy "$(TargetDir)$(TargetName).exe" "\\Webserver-pc\c\Program Files Portable\FPFriender" /i /d /y
+xcopy "$(TargetDir)*.dll" "\\Webserver-pc\c\Program Files Portable\FreedomPop" /i /d /y</PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
     <PreBuildEvent>

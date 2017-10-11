@@ -168,6 +168,17 @@ public class GeneralFunctions {
 		}
 	}
 	public static class Oth{
+		public static boolean isValidEmail(String pEmailIn)
+		{
+			boolean retVal=false;
+			int val=0;
+			if (pEmailIn.contains("'")) return false;
+			if (pEmailIn.contains("@")) val++;
+			if (pEmailIn.length()>6) val++;;
+			if (pEmailIn.contains(".")) val++;
+			if (val==3) retVal=true;
+			return retVal;
+		}
 		public static boolean IsNothing(Object a)
 		{
 			boolean retVal=false;

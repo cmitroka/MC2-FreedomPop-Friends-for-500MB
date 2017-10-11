@@ -169,7 +169,7 @@ namespace FPFriender
         private void DoIt()
         {
             pOverallErrors = "";
-            pURL = "https://my.freedompop.com/login";
+            pURL = "https://my.freedompop.com/earn-share/friend-invite";  //https://my.freedompop.com/login
             string pLogin = "";
             string pPassword = "Temppass1!";
             //string[] digits = { "01", "02", "03", "04", "05", "06", "07", "08", "09", "10" };  //"01", "02", "03", "04", "05", "06", "07", "08", "09", "10"
@@ -308,7 +308,7 @@ namespace FPFriender
                 //long iPntr = Convert.ToInt64(SupportMethods.FindChromeHNWD());
                 //MainWindowHWND = (IntPtr)iPntr;
                 //GCGCommon.SupportMethods.AdjustWindow(MainWindowHWND, 0, 0, 800, 800);
-                IE.Navigate(pURL);
+                IE.Navigate("https://my.freedompop.com/earn-share/friend-invite");
                 //mshtml.IHTMLDocument2 FrameDoc = IEHelper.ConvertIEToIHTMLDocument2(IE, "md-raised md-primary md-button md-ink-ripple");
                 //IEHelper.SimInput(FrameDoc, IEHelper.HTMLTagNames.Zinput, IEHelper.HTMLAttributes.Zname, "username", pLogin);
                 //LogItTextbox(pValidateBytesSizeDataLogin);
@@ -321,10 +321,10 @@ namespace FPFriender
                 DoHandleTyper("{TAB}");
                 DoHandleTyper(pPassword+ "{TAB}{ENTER}");
                 //If we have a reactivate, we click it, then wait for the close button                
-                DoDelay(5);
+                DoDelay(5);  //We have to wait a few seconds for the page to load to see if we need to reactivate or not.
                 mshtml.IHTMLDocument2 htmlDoc = IE.Document as mshtml.IHTMLDocument2;
-                string content = htmlDoc.body.outerHTML;
-                if (content.Contains("reactivate"))
+                string content1 = htmlDoc.body.outerHTML;
+                if (content1.Contains("Reactivate Account"))
                 {
                     int[] Coords2 = GetCoordsFromString(pReactivateCoordinates);
                     DoUI.DoMouseClick(Coords2[0], Coords2[1]);
@@ -332,16 +332,12 @@ namespace FPFriender
                     int[] Coords3 = GetCoordsFromString(pReactivateCloseCoordinates);
                     DoUI.DoMouseClick(Coords3[0], Coords3[1]);
                     DoDelay(3);
-                }
-                
-                
-                IE.Navigate("https://my.freedompop.com/earn-share/friend-invite");
+                }                
+                //IE.Navigate("https://my.freedompop.com/earn-share/friend-invite");
                 pOK = DoHandleValidateBytesSize(pValidateBytesSizeDataTextarea, pLogin + " - Setting Friend Text Area; probably needs reactivation.");
                 if (pOK == false) return;
                 int[] Coords4 = GetCoordsFromString(pFriendEmailCoordinate);
-                
-                //FIX THIS
-                
+                LogItTextbox("Clicking " + Coords4[0].ToString() + "," + Coords4[1].ToString());                
                 DoUI.DoMouseClick(Coords4[0], Coords4[1]);
                 DoDelay(10);                
                 //FrameDoc = IEHelper.ConvertIEToIHTMLDocument2(IE, "input_13");

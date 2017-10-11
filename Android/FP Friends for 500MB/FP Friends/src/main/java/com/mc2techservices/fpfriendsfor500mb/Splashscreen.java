@@ -20,13 +20,14 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 public class Splashscreen extends Activity {
-    private static Timer t=new Timer();
+    private static Timer t;
     int pCounter;
     ProgressBar progressBarSS;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splashscreen);
+        t=new Timer();
         //PreInit();
         Init();
         ConfigUser();
@@ -112,7 +113,6 @@ public class Splashscreen extends Activity {
     {
         Intent intent = new Intent(this, WhatIsFPF500.class);
         startActivity(intent);
-        finish();
     }
 
     @Override

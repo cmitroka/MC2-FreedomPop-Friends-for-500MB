@@ -122,6 +122,15 @@ public class SubmitEmailForFriends extends Activity  {
         builder.setMessage("You need credits to get friend requests; would you like to acquire some now?").setPositiveButton("Yes", dialogClickListener)
                 .setNegativeButton("No", dialogClickListener).show();
     }
+    private void ShowInvEmailMessage()
+    {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Oops")
+                .setMessage("Email has to be at least 6 characters long, have an @, and have a .")
+                .setNeutralButton("OK", null);
+        AlertDialog dialog = builder.create();
+        dialog.show();
+    }
     private void SwitchScreensBack()
     {
         Intent intent = new Intent(this, WhatsTheCatch.class);
@@ -142,7 +151,14 @@ public class SubmitEmailForFriends extends Activity  {
         }
         else
         {
-            ShowConfirmationMessage();
+            if (GeneralFunctions.Oth.isValidEmail(etEmailRequestsTo.getText().toString()))
+            {
+                ShowConfirmationMessage();
+            }
+            else
+            {
+                ShowInvEmailMessage();
+            }
             return;
         }
     }
