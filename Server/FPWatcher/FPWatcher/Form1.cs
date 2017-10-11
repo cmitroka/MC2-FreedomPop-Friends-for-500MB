@@ -38,7 +38,7 @@ namespace FPWatcher
             trayIcon.Visible = true;
             try
             {
-                StreamReader sr = new StreamReader("Settings.txt");
+                StreamReader sr = new StreamReader(AppDomain.CurrentDomain.BaseDirectory + "\\Settings.txt");
                 txtFPFriendRequestLoc.Text = sr.ReadLine();
                 txtFrienderEXELoc.Text = sr.ReadLine();
                 sr.Close();
