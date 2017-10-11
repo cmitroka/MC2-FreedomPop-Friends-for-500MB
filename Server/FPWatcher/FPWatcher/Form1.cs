@@ -17,12 +17,13 @@ namespace FPWatcher
         int pDots;
         private NotifyIcon trayIcon;
         private ContextMenu trayMenu;
+        bool pShowApp;
         public Form1()
         {
             InitializeComponent();
             // Create a simple tray menu with only one item.
             trayMenu = new ContextMenu();
-            trayMenu.MenuItems.Add("Toggle Running", mnuToggleRunning);
+            trayMenu.MenuItems.Add("Show Application", ShowApp);
             trayMenu.MenuItems.Add("Exit", mnuOnExit);
 
             // Create a tray icon. In this example we use a
@@ -47,6 +48,29 @@ namespace FPWatcher
                 MessageBox.Show("Settings.txt error - " + ex.Message);
             }
         }
+        protected override void SetVisibleCore(bool value)
+        {
+            if (pShowApp==false)
+            {
+                base.SetVisibleCore(false);
+            }
+            else
+            {
+                base.SetVisibleCore(true);
+            }
+        }
+        private void Form1_Resize(object sender, EventArgs e)
+        {
+            //if the form is minimized  
+            //hide it from the task bar  
+            //and show the system tray icon (represented by the NotifyIcon control)  
+            if (this.WindowState == FormWindowState.Minimized)
+            {
+                pShowApp = false;
+                Hide();
+                trayIcon.Visible = true;
+            }
+        }  
 
         private void cmdToggleRunning_Click(object sender, EventArgs e)
         {
@@ -72,6 +96,13 @@ namespace FPWatcher
                 this.Text = "FP Watcher";
             }
         }
+        private void ShowApp(object sender, EventArgs e)
+        {
+            pShowApp = true;
+            Show();
+            this.WindowState = FormWindowState.Normal;
+        }
+
         private void Run()
         {
             tmrRunning.Enabled = false;

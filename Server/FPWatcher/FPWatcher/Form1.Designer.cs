@@ -132,6 +132,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "FP Watcher";
+            this.Resize += new System.EventHandler(this.Form1_Resize);
             this.ResumeLayout(false);
             this.PerformLayout();
 
