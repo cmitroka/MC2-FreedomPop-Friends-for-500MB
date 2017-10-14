@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -22,25 +23,37 @@ import java.util.TimerTask;
 
 public class WatchRewardedAd extends Activity implements RewardedVideoAdListener {
     private RewardedVideoAd mAd;
+    boolean pRewarded;
     int pCounter;
     private static Timer t;
     TextView tvLoadingAd;
+    TextView tvGotCredits;
     ProgressBar progressBar2;
+    Button cmdGetMoreCredits;
+    Button cmdUseCredits;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_watch_rewarded_ad);
-        tvLoadingAd= (TextView) findViewById(R.id.tvLoadingAd);
+        pRewarded=false;
+        tvLoadingAd= (TextView)findViewById(R.id.tvLoadingAd);
+        tvGotCredits=(TextView)findViewById(R.id.tvGotCredits);
         progressBar2 =(ProgressBar)findViewById(R.id.progressBar2);
+        cmdUseCredits=(Button)findViewById(R.id.cmdUseCredits);
+        cmdGetMoreCredits=(Button)findViewById(R.id.cmdGetMoreCredits);
+        cmdGetMoreCredits.setVisibility(View.GONE);
+        cmdUseCredits.setVisibility(View.GONE);
+        tvGotCredits.setVisibility(View.GONE);
+
         t=new Timer();
         mAd = MobileAds.getRewardedVideoAdInstance(this);
         mAd.setRewardedVideoAdListener(this);
         LoadRewardedVideoAd();
     }
     private void LoadRewardedVideoAd() {
+        mAd.loadAd("ca-app-pub-3940256099942544/5224354917", new AdRequest.Builder().build());
         if (!mAd.isLoaded())
         {
-            mAd.loadAd("ca-app-pub-2250341510214691/3116915607", new AdRequest.Builder().build());
         }
         ViewVideoAd();
         //ca-app-pub-3940256099942544/5224354917 is Google Example and Safe
@@ -48,23 +61,36 @@ public class WatchRewardedAd extends Activity implements RewardedVideoAdListener
         //ca-app-pub-2250341510214691/3116915607 is FPF
     }
 
-    private void LogReward()
+    private void LogReward(String pAmnt)
     {
         //string pUUID, string pDetails
         GeneralFunctions.Cfg.WriteSharedPreference("WatchedAd", "1");
         String pUUID=AppSpecific.gloUUID;
         String pKey1=GeneralFunctions.Text.GetRandomString("ANF",15);
         String pKey2=Decode.PMConvertIDtoValue(pKey1);
-        String pParams = "pUUID=" + pUUID + "&pKey1=" + pKey1 + "&pKey2=" + pKey2 + "&pDetails=Ad";
+        String pParams = "pUUID=" + pUUID + "&pKey1=" + pKey1 + "&pKey2=" + pKey2 + "&pDetails=Ad" + pAmnt;
         String pURL=AppSpecific.gloWebServiceURL + "/LogCredits";
         new GeneralFunctions.AsyncWebCall().execute(pURL,pParams);
     }
-    private void SwitchScreens()
+    private void SwitchScreensForwards()
     {
         Intent intent = new Intent(this, SubmitEmailForFriends.class);
         startActivity(intent);
         finish();
     }
+    private void SwitchScreensBack()
+    {
+        //Intent intent = new Intent(this, WhatsTheCatch.class);
+        //startActivity(intent);
+        finish();
+    }
+    private void SwitchScreens()
+    {
+        cmdGetMoreCredits.setVisibility(View.VISIBLE);
+        cmdUseCredits.setVisibility(View.VISIBLE);
+        tvGotCredits.setVisibility(View.VISIBLE);
+    }
+
 
     private String DisplayDots(int pDots)
     {
@@ -83,6 +109,13 @@ public class WatchRewardedAd extends Activity implements RewardedVideoAdListener
         }
         return retVal;
     }
+    public void onUseClicked(View arg0) {
+        SwitchScreensForwards();
+    }
+    public void onGetMoreClicked(View arg0) {
+        SwitchScreensBack();
+    }
+
     private void ViewVideoAd()
     {
         t.scheduleAtFixedRate(new TimerTask() {
@@ -118,8 +151,9 @@ public class WatchRewardedAd extends Activity implements RewardedVideoAdListener
     @Override
     public void onRewarded(RewardItem reward) {
         Log.d("APP", "onRewarded");
-        LogReward();
+        LogReward("1");
         SwitchScreens();
+        pRewarded=true;
         // Reward the user.
     }
 
@@ -127,13 +161,22 @@ public class WatchRewardedAd extends Activity implements RewardedVideoAdListener
     @Override
     public void onRewardedVideoAdLeftApplication() {
         Log.d("APP", "onRewardedVideoAdLeftApplication");
-        finish();
+        LogReward("4");
+        pRewarded=true;
+        //finish();
     }
 
     @Override
     public void onRewardedVideoAdClosed() {
         Log.d("APP", "onRewardedVideoAdClosed");
-        finish();
+        if (pRewarded==false)
+        {
+            SwitchScreensBack();
+        }
+        else
+        {
+            SwitchScreens();
+        }
     }
 
     @Override
@@ -145,19 +188,16 @@ public class WatchRewardedAd extends Activity implements RewardedVideoAdListener
     @Override
     public void onRewardedVideoAdLoaded() {
         Log.d("APP", "onRewardedVideoAdLoaded");
-        //finish();
     }
 
     @Override
     public void onRewardedVideoAdOpened() {
         Log.d("APP", "onRewardedVideoAdOpened");
-        //finish();
     }
 
     @Override
     public void onRewardedVideoStarted() {
         Log.d("APP", "onRewardedVideoStarted");
-        //finish();
     }
 
 }

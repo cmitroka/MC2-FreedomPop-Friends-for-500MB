@@ -55,17 +55,17 @@ public class SubmitEmailForFriends extends Activity  {
         etEmailRequestsTo=(EditText) findViewById(R.id.etEmailRequestsTo);
         GetCreditAvailable();
         ddRequestType = (Spinner)findViewById(R.id.ddRequestType);
-        if (iRequestsAvailable==0)
+        if (iRequestsAvailable>=0 && iRequestsAvailable<=4)
         {
             iRequestType = new String[] { "Need Credits"};
             etEmailRequestsTo.setEnabled(false);
 
         }
-        else if (iRequestsAvailable==5)
+        else if (iRequestsAvailable>=5 && iRequestsAvailable<=9)
         {
             iRequestType = new String[] { "5 Requests"};
         }
-        else if (iRequestsAvailable>5)
+        else if (iRequestsAvailable>=10)
         {
             iRequestType = new String[] { "10 Requests","5 Requests" };
         }

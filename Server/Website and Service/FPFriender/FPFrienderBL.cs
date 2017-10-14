@@ -90,7 +90,7 @@ public class FPFrienderBL
         if (OK=="1")
         {
             OK="";
-            if (pDetails == "Ad" || pDetails == "P5" || pDetails == "P10" || pDetails == "Override") OK = "1";
+            if (pDetails == "Ad0" || pDetails == "Ad1" || pDetails == "Ad4" || pDetails == "P5" || pDetails == "P10" || pDetails == "Override") OK = "1";
         }
         if (OK=="1")
         {

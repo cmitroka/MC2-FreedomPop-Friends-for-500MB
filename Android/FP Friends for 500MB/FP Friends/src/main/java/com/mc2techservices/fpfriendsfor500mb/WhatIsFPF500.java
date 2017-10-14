@@ -13,16 +13,22 @@ import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.Spinner;
 
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class WhatIsFPF500 extends Activity {
     Spinner spinner;
+    AdView pBannerAd;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_what_is_fpf500);
         SetupDropdown();
+        SetupBannerAd();
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -34,9 +40,35 @@ public class WhatIsFPF500 extends Activity {
     public boolean onOptionsItemSelected(MenuItem item) {
         Intent intent = new Intent(this, ContactUs.class);
         startActivity(intent);
+        SetupBannerAd();
         return true;
     }
-
+    private void SetupBannerAd()
+    {
+        pBannerAd=(AdView)findViewById(R.id.pBannerAdView);
+        AdRequest pAdRequest = new AdRequest.Builder()
+                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
+                .build();
+        pBannerAd.loadAd(pAdRequest);
+        pBannerAd.setAdListener(new AdListener() {
+            @Override
+            public void onAdLeftApplication() {
+                Log.d("APP", "Ad left application!");
+                LogWatchAd();
+            }
+        });
+    }
+    private void LogWatchAd()
+    {
+        //string pUUID, string pDetails
+        GeneralFunctions.Cfg.WriteSharedPreference("WatchedAd", "1");
+        String pUUID=AppSpecific.gloUUID;
+        String pKey1=GeneralFunctions.Text.GetRandomString("ANF",15);
+        String pKey2=Decode.PMConvertIDtoValue(pKey1);
+        String pParams = "pUUID=" + pUUID + "&pKey1=" + pKey1 + "&pKey2=" + pKey2 + "&pDetails=Ad0";
+        String pURL=AppSpecific.gloWebServiceURL + "/LogCredits";
+        new GeneralFunctions.AsyncWebCall().execute(pURL,pParams);
+    }
 
     private void SetupDropdown()
     {

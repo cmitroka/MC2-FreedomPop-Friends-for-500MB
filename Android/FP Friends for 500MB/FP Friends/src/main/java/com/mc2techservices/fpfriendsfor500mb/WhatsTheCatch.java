@@ -6,6 +6,7 @@ import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -42,7 +43,7 @@ public class WhatsTheCatch extends Activity {
         PurchaseRequests();
     }
     public void onWatchAdClicked(View arg0) {
-        WatchAd();
+        WatchAdDisclaimer();
     }
 
     public void onOverrideClicked(View arg0) {
@@ -136,31 +137,30 @@ public class WhatsTheCatch extends Activity {
     }
     private void WatchAd()
     {
-        if (GeneralFunctions.Cfg.ReadSharedPreference("WatchedAd").equals("X"))  //I dont think we have to do this; showed different ads going back and forth
-        {
-            DialogInterface.OnClickListener dialogClickListener = new DialogInterface.OnClickListener() {
-                @Override
-                public void onClick(DialogInterface dialog, int which) {
-                    switch (which){
-                        case DialogInterface.BUTTON_POSITIVE:
-                            System.exit(0);
-                            break;
-
-                        case DialogInterface.BUTTON_NEGATIVE:
-                            break;
-                    }
-                }
-            };
-
-            AlertDialog.Builder builder = new AlertDialog.Builder(this);
-            builder.setMessage("You need to restart the app to view another ad; do this now?").setPositiveButton("Yes", dialogClickListener)
-                    .setNegativeButton("No", dialogClickListener).show();
-        }
-        else
-        {
-            Intent intent = new Intent(this, WatchRewardedAd.class);
-            startActivity(intent);
-            finish();
-        }
+        Intent intent = new Intent(this, WatchRewardedAd.class);
+        startActivity(intent);
+        //finish();
     }
+    private void WatchAdDisclaimer() {
+        DialogInterface.OnClickListener dialogClickListener = new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                switch (which){
+                    case DialogInterface.BUTTON_POSITIVE:
+                        Log.d("APP", "Watch an ad.");
+                        WatchAd();
+                        break;
+
+                    case DialogInterface.BUTTON_NEGATIVE:
+                        Log.d("APP", "Dont watch an ad");
+                        break;
+                }
+            }
+        };
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("How this works...");
+        builder.setMessage("You'll now be shown a rewards ad.\n\n-If you close the ad before it completes, you get 0 credits.\n-If you watch the entire ad, you get 1 credit.\n-If you check out the ad/offer (so it opens after the video), you get 5 credits.\n\nContinue?").setPositiveButton("Yes", dialogClickListener)
+                .setNegativeButton("No", dialogClickListener).show();
+    }
+
 }
