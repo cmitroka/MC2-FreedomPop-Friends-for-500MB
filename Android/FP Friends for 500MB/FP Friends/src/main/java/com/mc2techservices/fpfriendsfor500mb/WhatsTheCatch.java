@@ -43,7 +43,8 @@ public class WhatsTheCatch extends Activity {
         PurchaseRequests();
     }
     public void onWatchAdClicked(View arg0) {
-        WatchAdDisclaimer();
+        ShowHowAdsWork();
+        //WatchAdDisclaimer();
     }
 
     public void onOverrideClicked(View arg0) {
@@ -161,6 +162,18 @@ public class WhatsTheCatch extends Activity {
         builder.setTitle("How this works...");
         builder.setMessage("You'll now be shown a rewards ad.\n\n-If you close the ad before it completes, you get 0 credits.\n-If you watch the entire ad, you get 1 credit.\n-If you check out the ad/offer (so it opens after the video), you get 5 credits.\n\nContinue?").setPositiveButton("Yes", dialogClickListener)
                 .setNegativeButton("No", dialogClickListener).show();
+    }
+    private void ShowHowAdsWork()
+    {
+        Intent intent = new Intent(this, HowAdsWork.class);
+        startActivity(intent);
+        //finish();
+    }
+    @Override
+    public void onResume () {
+        super.onResume();
+        Log.i("App","onResume");
+        //InitSceen();
     }
 
 }

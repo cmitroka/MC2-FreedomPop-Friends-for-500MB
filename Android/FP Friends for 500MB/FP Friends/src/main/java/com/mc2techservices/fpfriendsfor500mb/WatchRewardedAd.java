@@ -64,6 +64,17 @@ public class WatchRewardedAd extends Activity implements RewardedVideoAdListener
     private void LogReward(String pAmnt)
     {
         //string pUUID, string pDetails
+        if (pRewarded==false)
+        {
+            String pDate=GeneralFunctions.Dte.GetCurrentDate();
+            String pAmntSeen=GeneralFunctions.Cfg.ReadSharedPreference(pDate);
+            int iAmntSeen=GeneralFunctions.Conv.StringToInt(pAmntSeen);
+            iAmntSeen++;
+            GeneralFunctions.Cfg.WriteSharedPreference(pDate,GeneralFunctions.Conv.IntToString(iAmntSeen));
+        }
+
+
+
         GeneralFunctions.Cfg.WriteSharedPreference("WatchedAd", "1");
         String pUUID=AppSpecific.gloUUID;
         String pKey1=GeneralFunctions.Text.GetRandomString("ANF",15);

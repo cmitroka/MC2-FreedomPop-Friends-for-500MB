@@ -56,7 +56,7 @@ public class Splashscreen extends Activity {
         //AppSpecific.gloWebURL="http://192.168.199.1/FPF/";  //test
         AppSpecific.gloWebServiceURL=AppSpecific.gloWebURL + "FPFriender.asmx";
         MobileAds.initialize(this,"ca-app-pub-2250341510214691~6445840426");  //FP Friends for 500MB App ID
-        GeneralFunctions.Cfg.WriteSharedPreference("WatchedAd", "");
+        //GeneralFunctions.Cfg.WriteSharedPreference(GeneralFunctions.Dte.GetCurrentDate(), "");  //test
     }
     private void ConfigUser()
     {
