@@ -51,7 +51,7 @@ public class WatchRewardedAd extends Activity implements RewardedVideoAdListener
         LoadRewardedVideoAd();
     }
     private void LoadRewardedVideoAd() {
-        mAd.loadAd("ca-app-pub-3940256099942544/5224354917", new AdRequest.Builder().build());
+        mAd.loadAd("ca-app-pub-2250341510214691/3116915607", new AdRequest.Builder().build());
         if (!mAd.isLoaded())
         {
         }
