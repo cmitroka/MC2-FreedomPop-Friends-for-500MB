@@ -8,6 +8,7 @@ import android.graphics.Typeface;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
+import android.provider.Settings.Secure;
 import android.os.Environment;
 import android.util.Log;
 import android.widget.ProgressBar;
@@ -15,9 +16,13 @@ import android.widget.TextView;
 
 
 import com.google.android.gms.ads.MobileAds;
+import com.mc2techservices.ads.AdsMain;
 
+import java.util.Random;
 import java.util.Timer;
 import java.util.TimerTask;
+
+import static java.security.AccessController.getContext;
 
 public class Splashscreen extends Activity {
     private static Timer t;
@@ -53,7 +58,7 @@ public class Splashscreen extends Activity {
         AppSpecific.gloPD="~_~";
         AppSpecific.gloxmlns= "xmlns=\"fpfriender.mc2techservices.com\">";
         AppSpecific.gloWebURL="http://fp.mc2techservices.com/";
-        //AppSpecific.gloWebURL="http://192.168.199.1/FPF/";  //test
+        AppSpecific.gloWebURL="http://192.168.199.1/FPF/";  //test
         AppSpecific.gloWebServiceURL=AppSpecific.gloWebURL + "FPFriender.asmx";
         MobileAds.initialize(this,"ca-app-pub-2250341510214691~6445840426");  //FP Friends for 500MB App ID
         //GeneralFunctions.Cfg.WriteSharedPreference(GeneralFunctions.Dte.GetCurrentDate(), "");  //test
@@ -63,12 +68,21 @@ public class Splashscreen extends Activity {
         //GeneralFunctions.Cfg.WriteSharedPreference("UUID", "");
         if (GeneralFunctions.Cfg.ReadSharedPreference("UUID").equals(""))
         {
-            GeneralFunctions.Cfg.WriteSharedPreference("UUID", GeneralFunctions.Text.GetRandomString("ANF", 8));
+            //GeneralFunctions.Cfg.WriteSharedPreference("UUID", GeneralFunctions.Text.GetRandomString("ANF", 8));  //Old way
+            String android_id = Secure.getString(this.getContentResolver(), Secure.ANDROID_ID);
+            GeneralFunctions.Cfg.WriteSharedPreference("UUID",android_id);
         }
         AppSpecific.gloUUID=GeneralFunctions.Cfg.ReadSharedPreference("UUID");
         //AppSpecific.gloUUID="00000000000001"; //test
         String pKey=Decode.PMConvertIDtoValue(AppSpecific.gloUUID);
         AppSpecific.gloKey=pKey;
+        if (GeneralFunctions.Cfg.ReadSharedPreference("Bonus1").equals(""))
+        {
+            String r1 = GeneralFunctions.Text.GetRandomInt(1,3);
+            String r2 = GeneralFunctions.Text.GetRandomInt(4,5);
+            GeneralFunctions.Cfg.WriteSharedPreference("Bonus1", r1);
+            GeneralFunctions.Cfg.WriteSharedPreference("Bonus2", r2);
+        }
     }
 
     private void SetupScreen()

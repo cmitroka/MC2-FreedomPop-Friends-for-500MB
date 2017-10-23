@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.mc2techservices.fpfriendsfor500mb"
-    android:versionCode="7"
-    android:versionName="2017.10.15" >
+    android:versionCode="8"
+    android:versionName="2017.10.16" >
 
     <uses-sdk
-        android:minSdkVersion="15"
+        android:minSdkVersion="16"
         android:targetSdkVersion="24" />
     >
     <uses-permission android:name="com.android.vending.BILLING" />
@@ -32,21 +32,43 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.mc2techservices.fpfriendsfor500mb.WatchRewardedAd" >
+        <activity
+            android:name="com.mc2techservices.fpfriendsfor500mb.WhatIsFPF500"
+            android:allowBackup="true" >
         </activity>
-        <activity android:name="com.mc2techservices.fpfriendsfor500mb.WhatIsFPF500" >
+        <activity
+            android:name="com.mc2techservices.fpfriendsfor500mb.WhatsTheCatch"
+            android:allowBackup="true" >
         </activity>
-        <activity android:name="com.mc2techservices.fpfriendsfor500mb.WhatsTheCatch" >
+        <activity
+            android:name="com.mc2techservices.fpfriendsfor500mb.SubmitEmailForFriends"
+            android:allowBackup="true" >
         </activity>
-        <activity android:name="com.mc2techservices.fpfriendsfor500mb.SubmitEmailForFriends" >
+        <activity
+            android:name="com.mc2techservices.fpfriendsfor500mb.InAppPurchase"
+            android:allowBackup="true" >
         </activity>
-        <activity android:name="com.mc2techservices.fpfriendsfor500mb.InAppPurchase" >
+        <activity
+            android:name="com.mc2techservices.fpfriendsfor500mb.Confirmation"
+            android:allowBackup="true" >
         </activity>
-        <activity android:name="com.mc2techservices.fpfriendsfor500mb.Confirmation" >
+        <activity
+            android:name="com.mc2techservices.fpfriendsfor500mb.ContactUs"
+            android:allowBackup="true" >
         </activity>
-        <activity android:name="com.mc2techservices.fpfriendsfor500mb.ContactUs" >
+        <activity
+            android:name="com.mc2techservices.fpfriendsfor500mb.HowAdsWork"
+            android:allowBackup="true" >
         </activity>
-        <activity android:name="com.mc2techservices.fpfriendsfor500mb.HowAdsWork" >
+        <activity
+            android:name="com.mc2techservices.fpfriendsfor500mb.WatchRewardedAd"
+            android:allowBackup="true"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.mc2techservices.fpfriendsfor500mb.WatchInternalAd"
+            android:allowBackup="true"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" >
         </activity>
         <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity

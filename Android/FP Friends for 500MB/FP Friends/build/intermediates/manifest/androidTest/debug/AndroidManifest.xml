@@ -3,7 +3,7 @@
     package="com.mc2techservices.fpfriendsfor500mb.test" >
 
     <uses-sdk
-        android:minSdkVersion="15"
+        android:minSdkVersion="16"
         android:targetSdkVersion="24" />
 
     <instrumentation

@@ -20,25 +20,37 @@
             android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
-
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".WatchRewardedAd">
+        <activity android:name=".WhatIsFPF500"
+                  android:allowBackup="true">
         </activity>
-        <activity android:name=".WhatIsFPF500">
+        <activity android:name=".WhatsTheCatch"
+                  android:allowBackup="true">
         </activity>
-        <activity android:name=".WhatsTheCatch">
+        <activity android:name=".SubmitEmailForFriends"
+                  android:allowBackup="true">
         </activity>
-        <activity android:name=".SubmitEmailForFriends">
+        <activity android:name=".InAppPurchase"
+                  android:allowBackup="true">
         </activity>
-        <activity android:name=".InAppPurchase">
+        <activity android:name=".Confirmation"
+                  android:allowBackup="true">
         </activity>
-        <activity android:name=".Confirmation">
+        <activity android:name=".ContactUs"
+                  android:allowBackup="true">
         </activity>
-        <activity android:name=".ContactUs">
+        <activity android:name=".HowAdsWork"
+                  android:allowBackup="true">
         </activity>
-        <activity android:name=".HowAdsWork">
+        <activity android:name=".WatchRewardedAd"
+                  android:allowBackup="true"
+                  android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        </activity>
+        <activity android:name=".WatchInternalAd"
+                  android:allowBackup="true"
+                  android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
         </activity>
     </application>
 

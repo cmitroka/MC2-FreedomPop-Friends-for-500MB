@@ -26,6 +26,7 @@ public class WatchRewardedAd extends Activity implements RewardedVideoAdListener
     boolean pRewarded;
     int pCounter;
     private static Timer t;
+    String pBonus;
     TextView tvLoadingAd;
     TextView tvGotCredits;
     ProgressBar progressBar2;
@@ -34,6 +35,7 @@ public class WatchRewardedAd extends Activity implements RewardedVideoAdListener
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        pBonus=(getIntent().getStringExtra("Bonus"));
         setContentView(R.layout.activity_watch_rewarded_ad);
         pRewarded=false;
         tvLoadingAd= (TextView)findViewById(R.id.tvLoadingAd);
@@ -64,24 +66,24 @@ public class WatchRewardedAd extends Activity implements RewardedVideoAdListener
     private void LogReward(String pAmnt)
     {
         //string pUUID, string pDetails
-        if (pRewarded==false)
-        {
-            String pDate=GeneralFunctions.Dte.GetCurrentDate();
-            String pAmntSeen=GeneralFunctions.Cfg.ReadSharedPreference(pDate);
-            int iAmntSeen=GeneralFunctions.Conv.StringToInt(pAmntSeen);
-            iAmntSeen++;
-            GeneralFunctions.Cfg.WriteSharedPreference(pDate,GeneralFunctions.Conv.IntToString(iAmntSeen));
-        }
 
-
-
-        GeneralFunctions.Cfg.WriteSharedPreference("WatchedAd", "1");
         String pUUID=AppSpecific.gloUUID;
         String pKey1=GeneralFunctions.Text.GetRandomString("ANF",15);
         String pKey2=Decode.PMConvertIDtoValue(pKey1);
         String pParams = "pUUID=" + pUUID + "&pKey1=" + pKey1 + "&pKey2=" + pKey2 + "&pDetails=Ad" + pAmnt;
         String pURL=AppSpecific.gloWebServiceURL + "/LogCredits";
+        //String temp=GeneralFunctions.Comm.NonAsyncWebCall(pURL,pParams);
         new GeneralFunctions.AsyncWebCall().execute(pURL,pParams);
+    }
+    private void LogAdInfo(String pAmnt)
+    {
+        if (pAmnt.equals("1")) pAmnt="AdmobAdWatched";
+        if (pAmnt.equals("3")) pAmnt="AdmobAdClicked";
+        String pUUID=AppSpecific.gloUUID;
+        String pParams = "pUniqueID=" + pUUID + "&pTypeLogged=" + pAmnt;
+        String pURL=AppSpecific.gloWebServiceURL + "/SetAdInfo";
+        new GeneralFunctions.AsyncWebCall().execute(pURL,pParams);
+
     }
     private void SwitchScreensForwards()
     {
@@ -162,6 +164,7 @@ public class WatchRewardedAd extends Activity implements RewardedVideoAdListener
     @Override
     public void onRewarded(RewardItem reward) {
         Log.d("APP", "onRewarded");
+        LogAdInfo("1");
         LogReward("1");
         SwitchScreens();
         pRewarded=true;
@@ -172,7 +175,8 @@ public class WatchRewardedAd extends Activity implements RewardedVideoAdListener
     @Override
     public void onRewardedVideoAdLeftApplication() {
         Log.d("APP", "onRewardedVideoAdLeftApplication");
-        LogReward("4");
+        LogAdInfo("3");
+        if (pBonus.equals("1")) LogReward("3");
         pRewarded=true;
         //finish();
     }

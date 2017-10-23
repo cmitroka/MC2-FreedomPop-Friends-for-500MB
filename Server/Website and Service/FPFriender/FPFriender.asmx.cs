@@ -27,6 +27,33 @@ public class FPFriender : System.Web.Services.WebService
         bl.CloseIt();
         return retVal;
     }
+
+    [WebMethod]
+    public string GetServerInfo(string pUniqueID)
+    {
+        string retVal = "";
+        FPFrienderBL bl = new FPFrienderBL();
+        retVal = bl.gloWSStatus;
+        if (bl.gloWSStatus == "")
+        {
+            retVal = bl.GetServerInfo(pUniqueID);
+        }
+        bl.CloseIt();
+        return retVal;
+    }
+    [WebMethod]    
+    public string SetAdInfo(string pUniqueID, string pTypeLogged)
+    {
+        string retVal = "";
+        FPFrienderBL bl = new FPFrienderBL();
+        retVal = bl.gloWSStatus;
+        if (bl.gloWSStatus == "")
+        {
+            retVal = bl.SetAdInfo(pUniqueID, pTypeLogged);
+        }
+        bl.CloseIt();
+        return retVal;
+    }
     [WebMethod]
     public string RevealCode(string pKey1, string pPassword)
     {

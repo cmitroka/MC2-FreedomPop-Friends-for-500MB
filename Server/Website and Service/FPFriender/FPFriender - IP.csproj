@@ -116,6 +116,7 @@
     <Compile Include="About.aspx.designer.cs">
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
+    <Content Include="App_Code\Decode.cs" />
     <Compile Include="App_Code\SiteSpecific.cs" />
     <Compile Include="Decode.cs" />
     <Compile Include="FPFriender.asmx.cs">

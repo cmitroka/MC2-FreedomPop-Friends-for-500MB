@@ -86,16 +86,16 @@ public class FPFrienderBL
     public string LogCredits(string pUUID, string pKey1, string pKey2, string pDetails)
     {
         string retVal = "";
+        string pIP=GetUserIP();
         string OK = ValidateKeys(pKey1, pKey2);
         if (OK=="1")
         {
             OK="";
-            if (pDetails == "Ad0" || pDetails == "Ad1" || pDetails == "Ad4" || pDetails == "P5" || pDetails == "P10" || pDetails == "Override") OK = "1";
+            if (pDetails == "Ad0" || pDetails == "Ad1" || pDetails == "Ad3" || pDetails == "Ad4" || pDetails == "P5" || pDetails == "P10" || pDetails == "Override") OK = "1";
         }
         if (OK=="1")
         {
-            int retStat = sqlh.ExecuteSQLParamed("INSERT INTO tblCredits ([Key],UUID,Details,DateLogged) VALUES (@P0,@P1,@P2,@P3)", pKey1, pUUID, pDetails, DateTime.Now.ToString());
-            retVal = retStat.ToString();
+            int retStat = sqlh.ExecuteSQLParamed("INSERT INTO tblCredits ([Key],UUID,Details,IP,DateLogged) VALUES (@P0,@P1,@P2,@P3,@P4)", pKey1, pUUID, pDetails, pIP, DateTime.Now.ToString());
         }
         return retVal;
     }
@@ -115,6 +115,39 @@ public class FPFrienderBL
         //int iCreditAmount = Convert.ToInt16(CreditAmount);
         return retVal;
     }
+    public string GetServerInfo(string pUniqueID)
+    {
+        string retVal = "";
+        if (pUniqueID.Length == 0) pUniqueID = GetUserIP();
+        DateTime dt = DateTime.Now;
+        string pDateLogged = String.Format("{0:yyyy/MM/dd}", dt);
+        string pAdmobAdWatched = sqlh.GetSingleValuesOfSQL("SELECT COUNT(*) FROM tblAdInfo WHERE UniqueID=@P0 and TypeLogged='AdmobAdWatched' and DateLogged=@P1", pUniqueID, pDateLogged);
+        string pAdmobAdClicked = sqlh.GetSingleValuesOfSQL("SELECT COUNT(*) FROM tblAdInfo WHERE UniqueID=@P0 and TypeLogged='AdmobAdClicked' and DateLogged=@P1", pUniqueID, pDateLogged);
+        string pInternalAdWatched = sqlh.GetSingleValuesOfSQL("SELECT COUNT(*) FROM tblAdInfo WHERE UniqueID=@P0 and TypeLogged='InternalAdWatched' and DateLogged=@P1", pUniqueID, pDateLogged);
+        DateTime startTime = DateTime.Now;
+        DateTime endTime = DateTime.Now.AddDays(1);
+        DateTime trueEndTime = endTime.Date;
+        TimeSpan span = trueEndTime.Subtract(startTime);
+        Console.WriteLine("Time Difference (seconds): " + span.Seconds);
+        Console.WriteLine("Time Difference (minutes): " + span.Minutes);
+        Console.WriteLine("Time Difference (hours): " + span.Hours);
+        Console.WriteLine("Time Difference (days): " + span.Days);
+        string pResetTime = span.Hours + "hrs " + span.Minutes + "mins";
+        string pCreditAmount = sqlh.GetSingleValuesOfSQL("SELECT CreditsRemaining FROM qryTotalCreditsRemaining WHERE UUID=@P0", pUniqueID);
+        if (pCreditAmount == "") pCreditAmount = "0";
+        retVal = pAdmobAdWatched + "," + pAdmobAdClicked + "," + pInternalAdWatched + "," + pResetTime + "," + pCreditAmount;
+        return retVal;
+    }
+    public string SetAdInfo(string pUniqueID, string pTypeLogged)
+    {
+        //pTypeLogged=AdmobAdWatched,AdmobAdClicked,InternalAdWatched,InternalAdClicked
+        if (pUniqueID.Length==0) pUniqueID = GetUserIP();
+        DateTime dt = DateTime.Now;
+        string pDateLogged = String.Format("{0:yyyy/MM/dd}", dt);
+        int retStat = sqlh.ExecuteSQLParamed("INSERT INTO tblAdInfo (UniqueID,TypeLogged, DateLogged, DateTimeLogged) VALUES (@P0,@P1,@P2,@P3)", pUniqueID, pTypeLogged, pDateLogged, DateTime.Now.ToString());
+        return "";
+    }
+
     public string MakeRequest(string pUUID, string pRequestType, string pEmail)
     {
         string t = GetCreditAmount(pUUID);

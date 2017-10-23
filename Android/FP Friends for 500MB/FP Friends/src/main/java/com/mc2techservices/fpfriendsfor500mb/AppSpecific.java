@@ -8,4 +8,6 @@ public class AppSpecific {
 	public static String gloUUID;
 	public static String gloLD;
 	public static String gloPD;
+	public static String gloAdsAllowed;
+
 }

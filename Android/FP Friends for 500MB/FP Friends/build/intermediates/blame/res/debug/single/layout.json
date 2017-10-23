@@ -16,20 +16,16 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\53b58de4e7c2b232d2a3ccf07f57bde6ca8a3837\\output\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\Development\\FreedomPop\\Android\\FP Friends for 500MB\\FP Friends\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53b58de4e7c2b232d2a3ccf07f57bde6ca8a3837\\output\\res\\layout\\notification_template_custom_big.xml"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\Desktop\\Development\\FreedomPop\\Android\\FP Friends for 500MB\\FP Friends\\build\\intermediates\\res\\merged\\debug\\layout\\activity_submit_email_for_friends.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\Development\\FreedomPop\\Android\\FP Friends for 500MB\\FP Friends\\src\\main\\res\\layout\\activity_submit_email_for_friends.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\Development\\FreedomPop\\Android\\FP Friends for 500MB\\FP Friends\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53b58de4e7c2b232d2a3ccf07f57bde6ca8a3837\\output\\res\\layout\\select_dialog_item_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\Desktop\\Development\\FreedomPop\\Android\\FP Friends for 500MB\\FP Friends\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\53b58de4e7c2b232d2a3ccf07f57bde6ca8a3837\\output\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\Development\\FreedomPop\\Android\\FP Friends for 500MB\\FP Friends\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53b58de4e7c2b232d2a3ccf07f57bde6ca8a3837\\output\\res\\layout\\select_dialog_item_material.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\Development\\FreedomPop\\Android\\FP Friends for 500MB\\FP Friends\\build\\intermediates\\res\\merged\\debug\\layout\\activity_watch_rewarded_ad.xml",
@@ -42,6 +38,10 @@
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\Development\\FreedomPop\\Android\\FP Friends for 500MB\\FP Friends\\build\\intermediates\\res\\merged\\debug\\layout\\activity_whats_the_catch.xml",
         "source": "C:\\Users\\Administrator\\Desktop\\Development\\FreedomPop\\Android\\FP Friends for 500MB\\FP Friends\\src\\main\\res\\layout\\activity_whats_the_catch.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\Development\\FreedomPop\\Android\\FP Friends for 500MB\\FP Friends\\build\\intermediates\\res\\merged\\debug\\layout\\activity_watch_internal_ad.xml",
+        "source": "C:\\Users\\Administrator\\Desktop\\Development\\FreedomPop\\Android\\FP Friends for 500MB\\FP Friends\\src\\main\\res\\layout\\activity_watch_internal_ad.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\Development\\FreedomPop\\Android\\FP Friends for 500MB\\FP Friends\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_purchase.xml",

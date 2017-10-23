@@ -314,7 +314,7 @@ public class GeneralFunctions {
 			{
 				GeneralFunctions.isOnline="0";
 			}
-			if (GeneralFunctions.isOnline.equals("0")) return "";
+			//if (GeneralFunctions.isOnline.equals("0")) return "";
 			if (Build.VERSION.SDK_INT > 9) {
 				StrictMode.ThreadPolicy policy =
 						new StrictMode.ThreadPolicy.Builder().permitAll().build();
@@ -593,6 +593,12 @@ public class GeneralFunctions {
 		private static final String ALLOWED_CHARACTERS_NUMERIC ="0123456789";
 		private static final String ALLOWED_CHARACTERS_ALPHA ="0123456789";
 		private static final String ALLOWED_CHARACTERS_HEX ="0123456789ABCDEF";
+		public static String GetRandomInt(int MinVal, int MaxVal) {
+			Random r1 = new Random();
+			int i1 = r1.nextInt((MaxVal+1) - MinVal) + MinVal;
+			String retVal= GeneralFunctions.Conv.IntToString(i1);
+			return retVal;
+		}
 		public static String GetRandomString(String Type, final int sizeOfRandomString)
 		{
 			final Random random=new Random();
