@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Oct 23 01:11:58 EDT 2017
+#Mon Oct 23 01:47:56 EDT 2017
 210.set=ANDROID_RESOURCE
 14.set=ANDROID_RESOURCE
 180.file=C\:\\Users\\Administrator\\Desktop\\Development\\FreedomPop\\Android\\FP Friends for 500MB\\FP Friends\\build\\intermediates\\res\\resources-debug.ap_\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml

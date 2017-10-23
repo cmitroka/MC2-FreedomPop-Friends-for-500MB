@@ -32,6 +32,7 @@ public class WatchInternalAd extends Activity {
     ImageView imgLoadAd;
     String pPackageNameForOffer;
     String pBonus;
+    boolean pLeftApplication;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -101,6 +102,7 @@ public class WatchInternalAd extends Activity {
         } catch (android.content.ActivityNotFoundException anfe) {
             startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=" + pPackageNameForOffer)));
         }
+        pLeftApplication=true;
     }
     private void ShowWaiting()
     {
@@ -140,7 +142,7 @@ public class WatchInternalAd extends Activity {
     private void LogAdInfo(String pAmnt)
     {
         if (pAmnt.equals("1")) pAmnt="InternalAdWatched";
-        if (pAmnt.equals("4")) pAmnt="InternalAdClicked";
+        if (pAmnt.equals("3")) pAmnt="InternalAdClicked";
         String pUUID=AppSpecific.gloUUID;
         String pParams = "pUniqueID=" + pUUID + "&pTypeLogged=" + pAmnt;
         String pURL=AppSpecific.gloWebServiceURL + "/SetAdInfo";
@@ -153,28 +155,28 @@ public class WatchInternalAd extends Activity {
     }
     private void CheckOutAd()
     {
+        LogAdInfo("1");
         LogAdInfo("3");
-        if (pBonus.equals("1"))
-        {
-            LogReward("3");
-        }
-        else
-        {
-            LogReward("1");
-        }
+        LogReward("1");
+        if (pBonus.equals("1")) LogReward("3");
         GoToGooglePlay();
-        //SwitchScreensForwards();
     }
     private void CloseAd()
     {
         LogAdInfo("1");
         LogReward("1");
-        SwitchScreensForwards();
+        SwitchScreens();
     }
-    private void SwitchScreensForwards()
+    private void SwitchScreens()
     {
-        Intent intent = new Intent(this, SubmitEmailForFriends.class);
+        Intent intent = new Intent(this, HowAdsWork.class);
         startActivity(intent);
         finish();
     }
+    @Override
+    public void onResume () {
+        super.onResume();
+        if (pLeftApplication==true)SwitchScreens();
+    }
+
 }
