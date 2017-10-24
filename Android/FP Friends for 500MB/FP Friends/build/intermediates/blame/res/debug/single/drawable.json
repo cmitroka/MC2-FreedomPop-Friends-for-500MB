@@ -68,12 +68,12 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\53b58de4e7c2b232d2a3ccf07f57bde6ca8a3837\\output\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\Development\\FreedomPop\\Android\\FP Friends for 500MB\\FP Friends\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53b58de4e7c2b232d2a3ccf07f57bde6ca8a3837\\output\\res\\drawable\\notification_tile_bg.xml"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\Desktop\\Development\\FreedomPop\\Android\\FP Friends for 500MB\\FP Friends\\build\\intermediates\\res\\merged\\debug\\drawable\\ad_internal_pccb.jpg",
         "source": "C:\\Users\\Administrator\\Desktop\\Development\\FreedomPop\\Android\\FP Friends for 500MB\\FP Friends\\src\\main\\res\\drawable\\ad_internal_pccb.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\Development\\FreedomPop\\Android\\FP Friends for 500MB\\FP Friends\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53b58de4e7c2b232d2a3ccf07f57bde6ca8a3837\\output\\res\\drawable\\notification_tile_bg.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\Development\\FreedomPop\\Android\\FP Friends for 500MB\\FP Friends\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
@@ -88,12 +88,12 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\53b58de4e7c2b232d2a3ccf07f57bde6ca8a3837\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\Development\\FreedomPop\\Android\\FP Friends for 500MB\\FP Friends\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53b58de4e7c2b232d2a3ccf07f57bde6ca8a3837\\output\\res\\drawable\\abc_vector_test.xml"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\Desktop\\Development\\FreedomPop\\Android\\FP Friends for 500MB\\FP Friends\\build\\intermediates\\res\\merged\\debug\\drawable\\ad_internal_yci.jpg",
         "source": "C:\\Users\\Administrator\\Desktop\\Development\\FreedomPop\\Android\\FP Friends for 500MB\\FP Friends\\src\\main\\res\\drawable\\ad_internal_yci.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\Development\\FreedomPop\\Android\\FP Friends for 500MB\\FP Friends\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53b58de4e7c2b232d2a3ccf07f57bde6ca8a3837\\output\\res\\drawable\\abc_vector_test.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\Development\\FreedomPop\\Android\\FP Friends for 500MB\\FP Friends\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
@@ -128,12 +128,12 @@
         "source": "C:\\Users\\Administrator\\.android\\build-cache\\53b58de4e7c2b232d2a3ccf07f57bde6ca8a3837\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\Desktop\\Development\\FreedomPop\\Android\\FP Friends for 500MB\\FP Friends\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
-        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53b58de4e7c2b232d2a3ccf07f57bde6ca8a3837\\output\\res\\drawable\\notification_icon_background.xml"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\Desktop\\Development\\FreedomPop\\Android\\FP Friends for 500MB\\FP Friends\\build\\intermediates\\res\\merged\\debug\\drawable\\ad_internal_gcb.jpg",
         "source": "C:\\Users\\Administrator\\Desktop\\Development\\FreedomPop\\Android\\FP Friends for 500MB\\FP Friends\\src\\main\\res\\drawable\\ad_internal_gcb.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\Desktop\\Development\\FreedomPop\\Android\\FP Friends for 500MB\\FP Friends\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\53b58de4e7c2b232d2a3ccf07f57bde6ca8a3837\\output\\res\\drawable\\notification_icon_background.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\Desktop\\Development\\FreedomPop\\Android\\FP Friends for 500MB\\FP Friends\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",

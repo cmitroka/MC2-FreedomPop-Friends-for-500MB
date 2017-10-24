@@ -23,7 +23,7 @@ public class AdsMain {
     {
         gloxmlns= "xmlns=\"fpfriender.mc2techservices.com\">";
         gloWebURL="http://fp.mc2techservices.com/";
-        gloWebURL="http://192.168.199.1/FPF/";  //test
+        //gloWebURL="http://192.168.199.1/FPF/";  //test
         gloWebServiceURL=AppSpecific.gloWebURL + "FPFriender.asmx";
     }
     public static String DetermineAdState()

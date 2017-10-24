@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:2:1-57:12
+ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:2:1-66:12
 	package
 		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:3:11-58
 	android:versionName
@@ -18,7 +18,7 @@ ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Frie
 	android:name
 		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:7:22-64
 application
-ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:9:5-55:19
+ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:9:5-64:19
 MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Administrator\.android\build-cache\53b58de4e7c2b232d2a3ccf07f57bde6ca8a3837\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\Administrator\.android\build-cache\e8d488d8c758a87f7898e8dddc9dabdab1eaf1bc\output\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\Administrator\.android\build-cache\a89be1c1b807a131f09b950245cc02a0f6c38a3a\output\AndroidManifest.xml:23:5-20
@@ -47,9 +47,9 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Ad
 activity#com.mc2techservices.fpfriendsfor500mb.Splashscreen
 ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:16:9-25:20
 	android:screenOrientation
-		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:19:13-55
+		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:18:13-49
 	android:noHistory
-		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:18:13-37
+		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:19:13-37
 	android:theme
 		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:20:13-77
 	android:name
@@ -65,63 +65,81 @@ ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Frie
 	android:name
 		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:23:27-74
 activity#com.mc2techservices.fpfriendsfor500mb.WhatIsFPF500
-ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:26:9-28:20
+ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:26:9-29:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:27:19-55
 	android:allowBackup
-		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:27:19-45
+		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:28:19-45
 	android:name
 		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:26:19-47
 activity#com.mc2techservices.fpfriendsfor500mb.WhatsTheCatch
-ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:29:9-31:20
+ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:30:9-33:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:31:19-55
 	android:allowBackup
-		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:30:19-45
+		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:32:19-45
 	android:name
-		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:29:19-48
+		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:30:19-48
 activity#com.mc2techservices.fpfriendsfor500mb.SubmitEmailForFriends
-ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:32:9-34:20
-	android:allowBackup
-		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:33:19-45
-	android:name
-		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:32:19-56
-activity#com.mc2techservices.fpfriendsfor500mb.InAppPurchase
-ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:35:9-37:20
+ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:34:9-37:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:35:19-55
 	android:allowBackup
 		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:36:19-45
 	android:name
-		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:35:19-48
+		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:34:19-56
+activity#com.mc2techservices.fpfriendsfor500mb.InAppPurchase
+ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:38:9-41:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:39:19-55
+	android:allowBackup
+		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:40:19-45
+	android:name
+		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:38:19-48
 activity#com.mc2techservices.fpfriendsfor500mb.Confirmation
-ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:38:9-40:20
+ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:42:9-45:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:43:19-55
 	android:allowBackup
-		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:39:19-45
-	android:name
-		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:38:19-47
-activity#com.mc2techservices.fpfriendsfor500mb.ContactUs
-ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:41:9-43:20
-	android:allowBackup
-		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:42:19-45
-	android:name
-		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:41:19-44
-activity#com.mc2techservices.fpfriendsfor500mb.HowAdsWork
-ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:44:9-46:20
-	android:allowBackup
-		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:45:19-45
-	android:name
 		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:44:19-45
-activity#com.mc2techservices.fpfriendsfor500mb.WatchRewardedAd
-ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:47:9-50:20
+	android:name
+		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:42:19-47
+activity#com.mc2techservices.fpfriendsfor500mb.ContactUs
+ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:46:9-49:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:47:19-55
 	android:allowBackup
 		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:48:19-45
-	android:theme
-		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:49:19-83
 	android:name
-		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:47:19-50
-activity#com.mc2techservices.fpfriendsfor500mb.WatchInternalAd
-ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:51:9-54:20
+		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:46:19-44
+activity#com.mc2techservices.fpfriendsfor500mb.HowAdsWork
+ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:50:9-53:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:51:19-55
 	android:allowBackup
 		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:52:19-45
-	android:theme
-		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:53:19-83
 	android:name
-		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:51:19-50
+		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:50:19-45
+activity#com.mc2techservices.fpfriendsfor500mb.WatchRewardedAd
+ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:54:9-58:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:55:19-55
+	android:allowBackup
+		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:56:19-45
+	android:theme
+		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:57:19-83
+	android:name
+		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:54:19-50
+activity#com.mc2techservices.fpfriendsfor500mb.WatchInternalAd
+ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:59:9-63:20
+	android:screenOrientation
+		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:60:19-55
+	android:allowBackup
+		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:61:19-45
+	android:theme
+		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:62:19-83
+	android:name
+		ADDED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:59:19-50
 uses-sdk
 INJECTED from C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\Administrator\.android\build-cache\53b58de4e7c2b232d2a3ccf07f57bde6ca8a3837\output\AndroidManifest.xml:21:5-23:78
