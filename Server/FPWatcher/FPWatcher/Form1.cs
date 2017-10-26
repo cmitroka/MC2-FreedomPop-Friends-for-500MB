@@ -140,8 +140,27 @@ namespace FPWatcher
                 catch (Exception exStart){}
                 this.Text = "Waiting for Friender to Exit";
                 p.WaitForExit();
-                try{File.Delete(file);}
-                catch (Exception exDel){}
+                String pProcessedFolder = "";
+                do
+                {
+                    try
+                    {
+                        pProcessedFolder = txtFPFriendRequestLoc.Text + "\\Processed";
+                        System.IO.Directory.CreateDirectory(pProcessedFolder);
+                    }
+                    catch (Exception exDel) { }
+                    try
+                    {
+                        String pFile = Path.GetFileName(file);
+                        File.Move(file, pProcessedFolder + "\\" + pFile);
+                    }
+                    catch (Exception exDel) { }
+                    try
+                    {
+                        File.Delete(file);
+                    }
+                    catch (Exception exDel) { }
+                } while (File.Exists(file));
             }
             tmrRunning.Enabled = true;
         }
