@@ -38,14 +38,14 @@ namespace FPWatcher
             trayIcon.Visible = true;
             try
             {
-                StreamReader sr = new StreamReader(AppDomain.CurrentDomain.BaseDirectory + "\\Settings.txt");
+                StreamReader sr = new StreamReader(AppDomain.CurrentDomain.BaseDirectory + "\\WatcherSettings.txt");
                 txtFPFriendRequestLoc.Text = sr.ReadLine();
                 txtFrienderEXELoc.Text = sr.ReadLine();
                 sr.Close();
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Settings.txt error - " + ex.Message);
+                MessageBox.Show("WatcherSettings.txt error - " + ex.Message);
             }
         }
         protected override void SetVisibleCore(bool value)
@@ -124,7 +124,7 @@ namespace FPWatcher
                 {
                     sr = new StreamReader(file);
                     templine = sr.ReadLine();  //Email
-                    templine = templine + "," + sr.ReadLine();  //First 5, Last 5, or All 10
+                    templine = templine + "~~~" + sr.ReadLine();  //First 5, Last 5, or All 10
                     sr.Close();
                 }
                 catch (Exception ex)
@@ -180,7 +180,7 @@ namespace FPWatcher
         {
             System.Diagnostics.Process notePad = new System.Diagnostics.Process();
             notePad.StartInfo.FileName = "notepad.exe";
-            notePad.StartInfo.Arguments = "Settings.txt";
+            notePad.StartInfo.Arguments = "WatcherSettings.txt";
             notePad.Start();
 
         }

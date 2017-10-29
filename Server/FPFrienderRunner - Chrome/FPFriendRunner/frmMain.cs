@@ -39,10 +39,8 @@ namespace FPFriender
         public frmMain()
         {
             InitializeComponent();
-            LoadConfig();
             frmDM = new frmMonitor();
-            frmDM.Show();
-            frmDM.Location = new Point((Screen.PrimaryScreen.WorkingArea.Width - frmDM.Width),0);
+            LoadConfig();
         }
         public frmMain(string[] commands)
             : this()
@@ -51,12 +49,16 @@ namespace FPFriender
             {
                 System.Diagnostics.EventLog.WriteEntry("FPFriender", "App started with cmd line " + commands[0].ToString(), System.Diagnostics.EventLogEntryType.Information);
                 LoadConfig();
+
+                frmDMVis();
+
+
                 String trueargsin = "";
                 foreach (string value in commands)
                 {
-                    trueargsin = trueargsin+value+",";
+                    trueargsin = trueargsin+value+"~~~";
                 }
-                string[] argsin = trueargsin.Split(',');
+                string[] argsin = System.Text.RegularExpressions.Regex.Split(trueargsin, "~~~");
                 txtEmail.Text = argsin[0].ToString();
                 pEmailGroups = argsin[1].ToString();
                 if (pEmailGroups.ToUpper() == "FIRST5")
@@ -67,6 +69,10 @@ namespace FPFriender
 	            {
 		            txtAccountsToUse.Text="06,07,08,09,10";
 	            }
+                else if (pEmailGroups == "EMERGENCY5")
+                {
+                    txtAccountsToUse.Text = "mc2fpgsmsim1@gmail.com,mc2fpgsmsim2@gmail.com,cmitroka@yahoo.com,mc2tab00@gmail.com,mc2motoe01@gmail.com";
+                }
                 else if (pEmailGroups == "ALL10")
                 {
                     txtAccountsToUse.Text = "00,01,02,04,05,06,07,08,09,10";
@@ -107,13 +113,14 @@ namespace FPFriender
             StreamReader sr;
             try
             {
-                sr = new StreamReader(AppDomain.CurrentDomain.BaseDirectory + "\\Settings.txt");
+                sr = new StreamReader(AppDomain.CurrentDomain.BaseDirectory + "\\RunnerSettings.txt");
                 checkBox1.Checked=Convert.ToBoolean(sr.ReadLine());
+                sr.Close();
             }
             catch (Exception ex0)
             {
                 err = true;
-                LogItBoth("Error with data in Settings.txt - " + ex0.Message, true);
+                LogItBoth("Error with data in RunnerSettings.txt - " + ex0.Message, true);
             }
             try
             {
@@ -187,7 +194,14 @@ namespace FPFriender
             string[] digits = txtAccountsToUse.Text.Split(',');
             foreach (string value in digits)
             {
-                pLogin = "mc2fp0" + value + "@gmail.com";
+                if (value.Length==2)
+                {
+                    pLogin = "mc2fp0" + value + "@gmail.com";
+                }
+                else
+                {
+                    pLogin = value;
+                }
                 LogItBoth("Running " + pLogin, false);
                 ClearCache();
                 RunScript(pLogin, pPassword);
@@ -551,21 +565,26 @@ namespace FPFriender
             a.Show();
         }
 
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        private void frmDMVis()
         {
             if (checkBox1.Checked)
             {
                 frmDM.Show();
+                frmDM.Location = new Point((Screen.PrimaryScreen.WorkingArea.Width - frmDM.Width), 0);
             }
             else
             {
                 frmDM.Hide();
             }
         }
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            frmDMVis();
+        }
 
         private void frmMain_FormClosing(object sender, FormClosingEventArgs e)
         {
-            StreamWriter sw = new StreamWriter(AppDomain.CurrentDomain.BaseDirectory + "\\Settings.txt");
+            StreamWriter sw = new StreamWriter(AppDomain.CurrentDomain.BaseDirectory + "\\RunnerSettings.txt");
             sw.WriteLine(checkBox1.Checked);
             sw.Close();
         }

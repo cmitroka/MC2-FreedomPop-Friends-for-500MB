@@ -214,7 +214,7 @@ public class FPFrienderBL
             sw.WriteLine(pEmail);  //Email
             sw.WriteLine(pRequestGroup);  //First 5, Last 5, or All 10
             sw.Close();
-            if (pUUID == "CJM") pUUID = "Override Request";
+            if (pUUID.ToUpper() == "CJM") pUUID = "Override Request";
             string retStat = sqlh.ExecuteSQLParamed("INSERT INTO tblRequests (UUID,ReqAmnt,ReqType,Email,DateLogged) VALUES (@P0,@P1,@P2,@P3,@P4)", pUUID, pRequestType,pRequestGroup, pEmail, DateTime.Now.ToString());
             retVal = retStat.ToString();
         }

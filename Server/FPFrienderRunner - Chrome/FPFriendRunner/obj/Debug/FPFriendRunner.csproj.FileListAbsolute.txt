@@ -15,7 +15,6 @@ C:\Users\Administrator\Desktop\Development\FreedomPop\Server\FPFrienderRunner\FP
 C:\Users\Administrator\Desktop\Development\FreedomPop\Server\FPFrienderRunner - Chrome\FPFriendRunner\bin\Debug\FPFriender.exe.config
 C:\Users\Administrator\Desktop\Development\FreedomPop\Server\FPFrienderRunner - Chrome\FPFriendRunner\obj\Debug\FPFriender.exe
 C:\Users\Administrator\Desktop\Development\FreedomPop\Server\FPFrienderRunner - Chrome\FPFriendRunner\obj\Debug\FPFriender.pdb
-C:\Users\Administrator\Desktop\Development\FreedomPop\Server\FPFrienderRunner - Chrome\FPFriendRunner\obj\Debug\FPFriendRunner.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Desktop\Development\FreedomPop\Server\FPFrienderRunner - Chrome\FPFriendRunner\obj\Debug\FPFriender.frmConfig.resources
 C:\Users\Administrator\Desktop\Development\FreedomPop\Server\FPFrienderRunner - Chrome\FPFriendRunner\obj\Debug\FPFriender.DoTyper.resources
 C:\Users\Administrator\Desktop\Development\FreedomPop\Server\FPFrienderRunner - Chrome\FPFriendRunner\obj\Debug\FPFriender.frmMain.resources
