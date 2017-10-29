@@ -71,7 +71,7 @@ public class FPFrienderBL
     public string LogUsage(string pUUID, string pChannel)
     {
         string retVal = "";
-        int retStat = sqlh.ExecuteSQLParamed("INSERT INTO tblAppUsers (UUID,Channel,DateLogged) VALUES (@P0,@P1,@P2)", pUUID, pChannel, DateTime.Now.ToString());
+        string retStat = sqlh.ExecuteSQLParamed("INSERT INTO tblAppUsers (UUID,Channel,DateLogged) VALUES (@P0,@P1,@P2)", pUUID, pChannel, DateTime.Now.ToString());
         retStat = sqlh.ExecuteSQLParamed("INSERT INTO tblAppUsage (UUID,DateLogged) VALUES (@P0,@P1)", pUUID, DateTime.Now.ToString());
         retVal = retStat.ToString();
         return retVal;
@@ -95,7 +95,7 @@ public class FPFrienderBL
         }
         if (OK=="1")
         {
-            int retStat = sqlh.ExecuteSQLParamed("INSERT INTO tblCredits ([Key],UUID,Details,IP,DateLogged) VALUES (@P0,@P1,@P2,@P3,@P4)", pKey1, pUUID, pDetails, pIP, DateTime.Now.ToString());
+            string retStat = sqlh.ExecuteSQLParamed("INSERT INTO tblCredits ([Key],UUID,Details,IP,DateLogged) VALUES (@P0,@P1,@P2,@P3,@P4)", pKey1, pUUID, pDetails, pIP, DateTime.Now.ToString());
         }
         return retVal;
     }
@@ -144,8 +144,8 @@ public class FPFrienderBL
         if (pUniqueID.Length==0) pUniqueID = GetUserIP();
         DateTime dt = DateTime.Now;
         string pDateLogged = String.Format("{0:yyyy/MM/dd}", dt);
-        int retStat = sqlh.ExecuteSQLParamed("INSERT INTO tblAdInfo (UniqueID,TypeLogged, DateLogged, DateTimeLogged) VALUES (@P0,@P1,@P2,@P3)", pUniqueID, pTypeLogged, pDateLogged, DateTime.Now.ToString());
-        return "";
+        string retStat = sqlh.ExecuteSQLParamed("INSERT INTO tblAdInfo (UniqueID,TypeLogged, DateLogged, DateTimeLogged) VALUES (@P0,@P1,@P2,@P3)", pUniqueID, pTypeLogged, pDateLogged, DateTime.Now.ToString());
+        return retStat;
     }
 
     public string MakeRequest(string pUUID, string pRequestType, string pEmail)
@@ -164,11 +164,12 @@ public class FPFrienderBL
         //read the web.config to determine where fpfriender is located...
         DateTime d = DateTime.Now;
         string dateString = d.ToString("yyyyMMddHHmmss");
-        string pOK = GetCreditAmount(pUUID);
-        if (pOK == "0") return "No Revenue Recorded for User";
+        string pCreditsAvailable = GetCreditAmount(pUUID);
+        if (pCreditsAvailable == "0") return "No Revenue Recorded for User";
         //they have credits, but have they used them?
 
         string b = sqlh.GetSingleValuesOfSQL("SELECT COUNT(*) FROM tblRequests WHERE Email=@P0", pEmail);
+        //Determined my server...
         if (b == "0")
         {
             pRequestGroup = "FIRST5";
@@ -178,14 +179,43 @@ public class FPFrienderBL
             //They've done a request already.  It was the first 5, so in this case, we'll do the back half of the 5.
             pRequestGroup = "LAST5";
         }
-        if (pRequestType == "10" && b == "0") pRequestGroup = "ALL10";
+        if (pRequestType == "10") pRequestGroup = "ALL10";
+
+        //Determined my client...
+        if (pRequestType == "A10")
+        {
+            pRequestType = "10";
+            pRequestGroup = "ALL10";
+        }
+        else if (pRequestType == "F5")
+        {
+            pRequestType = "5";
+            pRequestGroup = "FIRST5";
+        }
+        else if (pRequestType == "L5")
+        {
+            pRequestType = "5";
+            pRequestGroup = "LAST5";
+        }
+        else if (pRequestType == "E5")
+        {
+            pRequestType = "5";
+            pRequestGroup = "EMERGENCY5";
+        }
+
+
+        int iCreditsAvailable = Convert.ToInt16(pCreditsAvailable);
+        int iRequestType = Convert.ToInt16(pRequestType);
+        if (iCreditsAvailable < iRequestType) return "You need more credits for this request.";
+
         try
         {
             StreamWriter sw = new StreamWriter(pFPFrienderRqPath + "\\" + dateString + ".txt");
             sw.WriteLine(pEmail);  //Email
             sw.WriteLine(pRequestGroup);  //First 5, Last 5, or All 10
             sw.Close();
-            int retStat = sqlh.ExecuteSQLParamed("INSERT INTO tblRequests (UUID,ReqAmnt,ReqType,Email,DateLogged) VALUES (@P0,@P1,@P2,@P3,@P4)", pUUID, pRequestType,pRequestGroup, pEmail, DateTime.Now.ToString());
+            if (pUUID == "CJM") pUUID = "Override Request";
+            string retStat = sqlh.ExecuteSQLParamed("INSERT INTO tblRequests (UUID,ReqAmnt,ReqType,Email,DateLogged) VALUES (@P0,@P1,@P2,@P3,@P4)", pUUID, pRequestType,pRequestGroup, pEmail, DateTime.Now.ToString());
             retVal = retStat.ToString();
         }
         catch (Exception)

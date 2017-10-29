@@ -33,13 +33,16 @@ namespace FPFriender
 
         string pReactivateCoordinates;
         string pReactivateCloseCoordinates;
-
+        frmMonitor frmDM;
         
         bool AutoStart = false;
         public frmMain()
         {
             InitializeComponent();
             LoadConfig();
+            frmDM = new frmMonitor();
+            frmDM.Show();
+            frmDM.Location = new Point((Screen.PrimaryScreen.WorkingArea.Width - frmDM.Width),0);
         }
         public frmMain(string[] commands)
             : this()
@@ -56,9 +59,6 @@ namespace FPFriender
                 string[] argsin = trueargsin.Split(',');
                 txtEmail.Text = argsin[0].ToString();
                 pEmailGroups = argsin[1].ToString();
-
-                
-                
                 if (pEmailGroups.ToUpper() == "FIRST5")
 	            {
 		            txtAccountsToUse.Text="00,01,03,04,05";
@@ -105,6 +105,16 @@ namespace FPFriender
         {
             bool err = false;
             StreamReader sr;
+            try
+            {
+                sr = new StreamReader(AppDomain.CurrentDomain.BaseDirectory + "\\Settings.txt");
+                checkBox1.Checked=Convert.ToBoolean(sr.ReadLine());
+            }
+            catch (Exception ex0)
+            {
+                err = true;
+                LogItBoth("Error with data in Settings.txt - " + ex0.Message, true);
+            }
             try
             {
                 int p0 = 0;
@@ -194,7 +204,7 @@ namespace FPFriender
             }
             if (AutoStart)
             {
-                IEHelper.KillProcess("IEXPLORE");
+                CloseAllChromeBrowsers();
                 Application.Exit();
             }
         }
@@ -329,7 +339,10 @@ namespace FPFriender
                 long iPntr = Convert.ToInt64(SupportMethods.FindChromeHNWD());
                 IntPtr x = (IntPtr)iPntr;
                 ExternalCallHelper.AdjustWindow(x, 0, 0, 800, 800);
-                DoDelay(5);
+
+                pOK = DoHandleValidateBytesSize(pValidateBytesSizeDataLogin, pLogin + " - Login; probably previous account did not sign out.");
+                if (pOK == false) return;
+                DoDelay(1);  //There's a chance the textboxes didn't draw yet
                 int[] Coords1 = GetCoordsFromString(pEmailCoordinate);
                 DoUI.DoMouseClick(Coords1[0], Coords1[1]);
                 DoDelay(1);
@@ -342,6 +355,7 @@ namespace FPFriender
                 DoHandleTyper("{SELECTALL}");
                 DoDelay(1);
                 DoHandleTyper("{COPY}");
+                DoDelay(1);
                 string testi = Clipboard.GetText();
 
                 if (testi.Contains("Account Reactivation"))
@@ -399,6 +413,11 @@ namespace FPFriender
             do
             {
                 pSize = DoUI.ValidateBytesSize2(pX, pY, pW, pH);
+                frmDM.txtX.Text = pX.ToString();
+                frmDM.txtY.Text = pY.ToString();
+                frmDM.txtWidth.Text = pW.ToString();
+                frmDM.txtHeight.Text = pH.ToString();
+                frmDM.txtSize.Text = pSize;
                 LogItTextbox("Calced Size: " + pSize + " VS Required Size: " + pSizeShouldBe);
                 if (pSize == pSizeShouldBe)
                 {
@@ -406,9 +425,9 @@ namespace FPFriender
                     retVal = true;
                     break;
                 }
-                System.Threading.Thread.Sleep(1000);
+                System.Threading.Thread.Sleep(250);
                 RetryCnt++;
-                if (RetryCnt > 10)
+                if (RetryCnt > 40)
                 {
                     LogItBoth("Could not match the size for " + pHandler + " - this will need to be fixed.",true);
                     retVal = false;
@@ -417,6 +436,11 @@ namespace FPFriender
                 LogItTextbox("Matching size attempt " + RetryCnt.ToString());
                 Application.DoEvents();
             } while (1==1);
+            frmDM.txtX.Text = "";
+            frmDM.txtY.Text = "";
+            frmDM.txtWidth.Text = "";
+            frmDM.txtHeight.Text = "";
+            frmDM.txtSize.Text = "";
             tmrRunning.Enabled = true;
             return retVal;
         }
@@ -525,6 +549,25 @@ namespace FPFriender
         {
             frmConfig a = new frmConfig();
             a.Show();
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked)
+            {
+                frmDM.Show();
+            }
+            else
+            {
+                frmDM.Hide();
+            }
+        }
+
+        private void frmMain_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            StreamWriter sw = new StreamWriter(AppDomain.CurrentDomain.BaseDirectory + "\\Settings.txt");
+            sw.WriteLine(checkBox1.Checked);
+            sw.Close();
         }
 
 

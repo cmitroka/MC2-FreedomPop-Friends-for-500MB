@@ -23,3 +23,4 @@ C:\Users\Administrator\Desktop\Development\FreedomPop\Server\FPFrienderRunner - 
 C:\Users\Administrator\Desktop\Development\FreedomPop\Server\FPFrienderRunner - Chrome\FPFriendRunner\obj\Debug\FPFriendRunner.csproj.GenerateResource.Cache
 C:\Users\Administrator\Desktop\Development\FreedomPop\Server\FPFrienderRunner - Chrome\FPFriendRunner\bin\Debug\FPFriender.exe
 C:\Users\Administrator\Desktop\Development\FreedomPop\Server\FPFrienderRunner - Chrome\FPFriendRunner\bin\Debug\FPFriender.pdb
+C:\Users\Administrator\Desktop\Development\FreedomPop\Server\FPFrienderRunner - Chrome\FPFriendRunner\obj\Debug\FPFriender.frmMonitor.resources

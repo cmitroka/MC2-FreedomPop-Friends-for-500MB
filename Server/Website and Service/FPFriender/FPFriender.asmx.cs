@@ -107,7 +107,7 @@ public class FPFriender : System.Web.Services.WebService
         bl.CloseIt();
         return retVal;
     }
-    [WebMethod]
+    [WebMethod(Description = @"pRequestType can be 5, 10, F5, L5, A10, E5")]
     public string MakeRequest(string pUUID, string pRequestType, string pEmail)
     {
         string retVal = "";

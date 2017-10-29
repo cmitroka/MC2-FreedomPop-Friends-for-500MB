@@ -180,63 +180,63 @@ public class SQLHelper
         return retVal;
     }
 
-    public int ExecuteSQLParamed(string SQLin)
+    public string ExecuteSQLParamed(string SQLin)
     {
-        int retVal;
+        string retVal;
         retVal = ExecuteSQLParamed(SQLin, "", "", "", "", "", "", "", "", "", "");
         return retVal;
     }
-    public int ExecuteSQLParamed(string SQLin, string P0)
+    public string ExecuteSQLParamed(string SQLin, string P0)
     {
-        int retVal;
+        string retVal;
         retVal = ExecuteSQLParamed(SQLin, P0, "", "", "", "", "", "", "", "", "");
         return retVal;
     }
-    public int ExecuteSQLParamed(string SQLin, string P0, string P1)
+    public string ExecuteSQLParamed(string SQLin, string P0, string P1)
     {
-        int retVal;
+        string retVal;
         retVal = ExecuteSQLParamed(SQLin, P0, P1, "", "", "", "", "", "", "", "");
         return retVal;
     }
-    public int ExecuteSQLParamed(string SQLin, string P0, string P1, string P2)
+    public string ExecuteSQLParamed(string SQLin, string P0, string P1, string P2)
     {
-        int retVal;
+        string retVal;
         retVal = ExecuteSQLParamed(SQLin, P0, P1, P2, "", "", "", "", "", "", "");
         return retVal;
     }
-    public int ExecuteSQLParamed(string SQLin, string P0, string P1, string P2, string P3)
+    public string ExecuteSQLParamed(string SQLin, string P0, string P1, string P2, string P3)
     {
-        int retVal;
+        string retVal;
         retVal = ExecuteSQLParamed(SQLin, P0, P1, P2, P3, "", "", "", "", "", "");
         return retVal;
     }
-    public int ExecuteSQLParamed(string SQLin, string P0, string P1, string P2, string P3, string P4)
+    public string ExecuteSQLParamed(string SQLin, string P0, string P1, string P2, string P3, string P4)
     {
-        int retVal;
+        string retVal;
         retVal = ExecuteSQLParamed(SQLin, P0, P1, P2, P3, P4, "", "", "", "", "");
         return retVal;
     }
-    public int ExecuteSQLParamed(string SQLin, string P0, string P1, string P2, string P3, string P4, string P5)
+    public string ExecuteSQLParamed(string SQLin, string P0, string P1, string P2, string P3, string P4, string P5)
     {
-        int retVal;
+        string retVal;
         retVal = ExecuteSQLParamed(SQLin, P0, P1, P2, P3, P4, P5, "", "", "", "");
         return retVal;
     }
-    public int ExecuteSQLParamed(string SQLin, string P0, string P1, string P2, string P3, string P4, string P5, string P6)
+    public string ExecuteSQLParamed(string SQLin, string P0, string P1, string P2, string P3, string P4, string P5, string P6)
     {
-        int retVal;
+        string retVal;
         retVal = ExecuteSQLParamed(SQLin, P0, P1, P2, P3, P4, P5, P6, "", "", "");
         return retVal;
     }
-    public int ExecuteSQLParamed(string SQLin, string P0, string P1, string P2, string P3, string P4, string P5, string P6, string P7)
+    public string ExecuteSQLParamed(string SQLin, string P0, string P1, string P2, string P3, string P4, string P5, string P6, string P7)
     {
-        int retVal;
+        string retVal;
         retVal = ExecuteSQLParamed(SQLin, P0, P1, P2, P3, P4, P5, P6, P7, "", "");
         return retVal;
     }
-    public int ExecuteSQLParamed(string SQLin, string P0, string P1, string P2, string P3, string P4, string P5, string P6, string P7, string P8)
+    public string ExecuteSQLParamed(string SQLin, string P0, string P1, string P2, string P3, string P4, string P5, string P6, string P7, string P8)
     {
-        int retVal;
+        string retVal;
         retVal = ExecuteSQLParamed(SQLin, P0, P1, P2, P3, P4, P5, P6, P7, P8, "");
         return retVal;
     }
@@ -360,9 +360,9 @@ public class SQLHelper
         return retVal;
 
     }
-    public int ExecuteSQLParamed(string SQLin, string P0, string P1, string P2, string P3, string P4, string P5, string P6, string P7, string P8, string P9)
+    public string ExecuteSQLParamed(string SQLin, string P0, string P1, string P2, string P3, string P4, string P5, string P6, string P7, string P8, string P9)
     {
-        int retVal;
+        string retVal;
         OleDbCommand cmdID = new OleDbCommand("Select @@IDENTITY", aConnection);
         string ID = null;
         OleDbCommand cmdExec = new OleDbCommand(SQLin, aConnection);
@@ -378,28 +378,28 @@ public class SQLHelper
         if (P7 != "") { cmdExec.Parameters.AddWithValue("P7", P7); } else { cmdExec.Parameters.AddWithValue("P7", DBNull.Value); }
         if (P8 != "") { cmdExec.Parameters.AddWithValue("P8", P8); } else { cmdExec.Parameters.AddWithValue("P8", DBNull.Value); }
         if (P9 != "") { cmdExec.Parameters.AddWithValue("P9", P9); } else { cmdExec.Parameters.AddWithValue("P9", DBNull.Value); }
-        int OK = -1;
+        string OK = "-1";
         try
         {
-            retVal = 1;
-            OK = cmdExec.ExecuteNonQuery();
+            retVal = "1";
+            OK = cmdExec.ExecuteNonQuery().ToString();
             retVal = OK;
             return retVal;
         }
         catch (Exception ex)
         {
-            retVal = -1;
+            retVal = "-1";
             //throw "X";
-            return retVal;
+            return ex.Message;
         }
         try
         {
             string temp = cmdID.ExecuteScalar().ToString();
-            retVal = Convert.ToInt32(temp);
+            retVal = temp;
         }
         catch (Exception ex)
         {
-            retVal = -2;
+            retVal = "-2";
             return retVal;
         }
         return retVal;
