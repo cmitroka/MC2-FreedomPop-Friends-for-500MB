@@ -28,6 +28,20 @@ public class FPFriender : System.Web.Services.WebService
         return retVal;
     }
 
+
+    [WebMethod]
+    public string FPStatus(string pSetPassword, string pSet1or0)
+    {
+        string retVal = "";
+        FPFrienderBL bl = new FPFrienderBL();
+        retVal = bl.gloWSStatus;
+        if (bl.gloWSStatus == "")
+        {
+            retVal = bl.FPStatus(pSetPassword, pSet1or0);
+        }
+        bl.CloseIt();
+        return retVal;
+    }
     [WebMethod]
     public string GetServerInfo(string pUniqueID)
     {

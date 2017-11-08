@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\jniLibs"/></dataSet><dataSet config="release"><source path="C:\Users\Administrator\Desktop\Development\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\release\jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="C:\Dev\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\jniLibs"/></dataSet><dataSet config="release"><source path="C:\Dev\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\release\jniLibs"/></dataSet></merger>

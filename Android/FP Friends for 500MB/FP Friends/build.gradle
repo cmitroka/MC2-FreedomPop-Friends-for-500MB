@@ -8,15 +8,6 @@ android {
         targetSdkVersion 24
 
     }
-    applicationVariants.all { variant ->
-        variant.outputs.each { output ->
-            println(output.outputFile)
-
-            def newName = "FP Friends for 500MB " + variant.versionName + "_" + variant.versionCode + ".apk"
-            output.outputFile = new File(output.outputFile.parent, newName)
-        }
-    }
-
     buildTypes {
         release {
             minifyEnabled false

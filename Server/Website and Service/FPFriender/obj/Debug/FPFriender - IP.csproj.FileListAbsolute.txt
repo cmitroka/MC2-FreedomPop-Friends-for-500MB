@@ -16,3 +16,9 @@ C:\Users\Administrator\Desktop\Development\FreedomPop\Server\Website and Service
 C:\Users\Administrator\Desktop\Development\FreedomPop\Server\Website and Service\FPFriender\obj\Debug\App.dll
 C:\Users\Administrator\Desktop\Development\FreedomPop\Server\Website and Service\FPFriender\obj\Debug\App.pdb
 C:\Users\Administrator\Desktop\Development\FreedomPop\Server\Website and Service\FPFriender\obj\Debug\FPFriender - IP.csprojResolveAssemblyReference.cache
+C:\Dev\FreedomPop\Server\Website and Service\FPFriender\bin\App.dll.config
+C:\Dev\FreedomPop\Server\Website and Service\FPFriender\bin\App.dll
+C:\Dev\FreedomPop\Server\Website and Service\FPFriender\bin\App.pdb
+C:\Dev\FreedomPop\Server\Website and Service\FPFriender\obj\Debug\FPFriender - IP.csprojResolveAssemblyReference.cache
+C:\Dev\FreedomPop\Server\Website and Service\FPFriender\obj\Debug\App.dll
+C:\Dev\FreedomPop\Server\Website and Service\FPFriender\obj\Debug\App.pdb

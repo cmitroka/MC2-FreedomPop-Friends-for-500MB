@@ -1,12 +1,15 @@
 package com.mc2techservices.fpfriendsfor500mb;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.app.Application;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.provider.Settings.Secure;
 import android.os.Environment;
@@ -25,30 +28,50 @@ import java.util.TimerTask;
 import static java.security.AccessController.getContext;
 
 public class Splashscreen extends Activity {
-    private static Timer t;
-    int pCounter;
+
+    WebComm wc1;
+    Timer wc1Tmr;
+    int wc1Cnt;
+
     ProgressBar progressBarSS;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splashscreen);
-        t=new Timer();
-        //PreInit();
+        PreInit();
         Init();
         ConfigUser();
         LogAppLaunch();
         SetupScreen();
-        ShowWaiting();
+        GetFPStatus();
+        //ShowWaiting();
     }
 
     private void PreInit()
     {
+        /*
         boolean Conn=GeneralFunctions.Comm.isInternetConnectionThere(this,this);
         boolean C2=Conn;
         String pUUID=GeneralFunctions.Cfg.ReadSharedPreference("UUID");
         String pKey1=GeneralFunctions.Text.GetRandomString("ANF",15);
         String pKey2=Decode.PMConvertIDtoValue(pKey1);
         Log.d("APP", "pKey2: "+pKey2);
+        */
+
+        /*
+        f = new Foo();
+        String pParams = "pSetPassword=&pSet1or0=";
+        String pURL="http://fp.mc2techservices.com/FPFriender.asmx" + "/FPStatus";
+        f.execFoo(pURL,pParams);
+        String z=f.pWebResponse;
+        */
+
+
+
+        //String pParams = "pSetPassword=&pSet1or0=";
+        //String pURL=AppSpecific.gloWebServiceURL + "/FPStatus";
+        //GeneralFunctions.Comm.NonAsyncWebCall(pURL, pParams);
+        //AsyncTask<String, String, String> awc=new GeneralFunctions.AsyncWebCall().execute(pURL,pParams);
     }
 
     private void Init()
@@ -96,31 +119,74 @@ public class Splashscreen extends Activity {
         progressBarSS.setAlpha(1);
         txtAppVersion.setText(GeneralFunctions.Sys.GetVersion());
     }
+    private void GetFPStatus()
+    {
+        wc1 = new WebComm();
+        String pWCParams = "pSetPassword=&pSet1or0=";
+        String pWCURL=AppSpecific.gloWebServiceURL + "/FPStatus";
+        wc1.ExecuteWebRequest(pWCURL,pWCParams);
+        GetWC1();
+    }
     private void LogAppLaunch()
     {
+        WebComm wc = new WebComm();
         String pParams = "pUUID=" + AppSpecific.gloUUID + "&pChannel=Android";
         String pURL=AppSpecific.gloWebServiceURL + "/LogUsage";
+        wc.ExecuteWebRequest(pURL,pParams);
         //GeneralFunctions.Comm.NonAsyncWebCall(pURL, pParams);
-        new GeneralFunctions.AsyncWebCall().execute(pURL,pParams);
+        //new GeneralFunctions.AsyncWebCall().execute(pURL,pParams);
     }
-    private void ShowWaiting()
+    private void GetWC1()
     {
-        t.scheduleAtFixedRate(new TimerTask() {
+        wc1Cnt=0;
+        wc1Tmr=new Timer();
+        wc1Tmr.scheduleAtFixedRate(new TimerTask() {
             public void run() {
                 runOnUiThread(new Runnable() {
                     public void run() {
-                        pCounter++;
-                        if (pCounter>3)
+                        wc1Cnt++;
+                        Log.d("APP", String.valueOf(wc1Tmr));
+                        if (wc1Cnt>10)
                         {
-                            t.cancel();
-                            progressBarSS.setAlpha(0);
-                            Log.d("APP", "Switch Screens");
-                            SwitchScreens();
+                            //timed out
+                            wc1Tmr.cancel();
+                            Log.d("APP", "Timed Out");
+                            ShowIssue("We couldn't talk to our server for 10 seconds, so you may be offline or we're rebooting.  You can still use the app, but it may be limited.");
+                        }
+                        else
+                        {
+                            Log.d("APP", "equals");
+                            if (!wc1.wcWebResponse.equals("..."))
+                            {
+                                wc1Tmr.cancel();
+                                Log.d("APP", "Theres a Response");
+                                if (wc1.wcWebResponse.equals("1"))
+                                {
+                                    SwitchScreens();
+                                }
+                                else
+                                {
+                                    ShowIssue("FP has done something preventing the friend request processor to fail.  You can still use the app, but for now - friend requests will be disabled.  Should be fixed in a day.");
+                                }
+                            }
                         }
                     }
                 });
             }
         }, 0, 1000); // 1000 means start delay (1 sec), and the second is the loop delay.
+    }
+
+    private void ShowIssue(String pMsg)
+    {
+        AlertDialog.Builder alert = new AlertDialog.Builder(this);
+        alert.setTitle("Oops");
+        alert.setMessage(pMsg);
+        alert.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int whichButton) {
+                SwitchScreens();
+            }
+        });
+        alert.show();
     }
 
     private void SwitchScreens()

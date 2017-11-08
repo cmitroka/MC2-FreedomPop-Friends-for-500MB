@@ -1,0 +1,37 @@
+C:\Users\Administrator\Desktop\Development\FreedomPop\FPFriend\Server\FPFrienderRunner\FPFriendRunner\bin\Debug\FPFriender.exe.config
+C:\Users\Administrator\Desktop\Development\FreedomPop\FPFriend\Server\FPFrienderRunner\FPFriendRunner\obj\Debug\FPFriender.exe
+C:\Users\Administrator\Desktop\Development\FreedomPop\FPFriend\Server\FPFrienderRunner\FPFriendRunner\obj\Debug\FPFriender.pdb
+C:\Users\Administrator\Desktop\Development\FreedomPop\Server\FPFrienderRunner\FPFriendRunner\bin\Debug\FPFriender.exe.config
+C:\Users\Administrator\Desktop\Development\FreedomPop\Server\FPFrienderRunner\FPFriendRunner\bin\Debug\FPFriender.exe
+C:\Users\Administrator\Desktop\Development\FreedomPop\Server\FPFrienderRunner\FPFriendRunner\bin\Debug\FPFriender.pdb
+C:\Users\Administrator\Desktop\Development\FreedomPop\Server\FPFrienderRunner\FPFriendRunner\obj\Debug\FPFriendRunner.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Development\FreedomPop\Server\FPFrienderRunner\FPFriendRunner\obj\Debug\FPFriender.frmConfig.resources
+C:\Users\Administrator\Desktop\Development\FreedomPop\Server\FPFrienderRunner\FPFriendRunner\obj\Debug\FPFriender.DoTyper.resources
+C:\Users\Administrator\Desktop\Development\FreedomPop\Server\FPFrienderRunner\FPFriendRunner\obj\Debug\FPFriender.frmMain.resources
+C:\Users\Administrator\Desktop\Development\FreedomPop\Server\FPFrienderRunner\FPFriendRunner\obj\Debug\FPFriender.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Development\FreedomPop\Server\FPFrienderRunner\FPFriendRunner\obj\Debug\FPFriendRunner.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\Development\FreedomPop\Server\FPFrienderRunner\FPFriendRunner\obj\Debug\FPFriender.exe
+C:\Users\Administrator\Desktop\Development\FreedomPop\Server\FPFrienderRunner\FPFriendRunner\obj\Debug\FPFriender.pdb
+C:\Users\Administrator\Desktop\Development\FreedomPop\Server\FPFrienderRunner - Chrome\FPFriendRunner\bin\Debug\FPFriender.exe.config
+C:\Users\Administrator\Desktop\Development\FreedomPop\Server\FPFrienderRunner - Chrome\FPFriendRunner\obj\Debug\FPFriender.exe
+C:\Users\Administrator\Desktop\Development\FreedomPop\Server\FPFrienderRunner - Chrome\FPFriendRunner\obj\Debug\FPFriender.pdb
+C:\Users\Administrator\Desktop\Development\FreedomPop\Server\FPFrienderRunner - Chrome\FPFriendRunner\obj\Debug\FPFriender.frmConfig.resources
+C:\Users\Administrator\Desktop\Development\FreedomPop\Server\FPFrienderRunner - Chrome\FPFriendRunner\obj\Debug\FPFriender.DoTyper.resources
+C:\Users\Administrator\Desktop\Development\FreedomPop\Server\FPFrienderRunner - Chrome\FPFriendRunner\obj\Debug\FPFriender.frmMain.resources
+C:\Users\Administrator\Desktop\Development\FreedomPop\Server\FPFrienderRunner - Chrome\FPFriendRunner\obj\Debug\FPFriender.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Development\FreedomPop\Server\FPFrienderRunner - Chrome\FPFriendRunner\obj\Debug\FPFriendRunner.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\Development\FreedomPop\Server\FPFrienderRunner - Chrome\FPFriendRunner\bin\Debug\FPFriender.exe
+C:\Users\Administrator\Desktop\Development\FreedomPop\Server\FPFrienderRunner - Chrome\FPFriendRunner\bin\Debug\FPFriender.pdb
+C:\Users\Administrator\Desktop\Development\FreedomPop\Server\FPFrienderRunner - Chrome\FPFriendRunner\obj\Debug\FPFriender.frmMonitor.resources
+C:\Dev\FreedomPop\Server\FPFrienderRunner - Chrome Complete Login\FPFriendRunner\bin\Debug\FPFriender.exe.config
+C:\Dev\FreedomPop\Server\FPFrienderRunner - Chrome Complete Login\FPFriendRunner\obj\Debug\FPFriender.exe
+C:\Dev\FreedomPop\Server\FPFrienderRunner - Chrome Complete Login\FPFriendRunner\obj\Debug\FPFriender.pdb
+C:\Dev\FreedomPop\Server\FPFrienderRunner - Chrome Complete Login\FPFriendRunner\bin\Debug\FPFriender.exe
+C:\Dev\FreedomPop\Server\FPFrienderRunner - Chrome Complete Login\FPFriendRunner\bin\Debug\FPFriender.pdb
+C:\Dev\FreedomPop\Server\FPFrienderRunner - Chrome Complete Login\FPFriendRunner\obj\Debug\FPFriendRunner.csprojResolveAssemblyReference.cache
+C:\Dev\FreedomPop\Server\FPFrienderRunner - Chrome Complete Login\FPFriendRunner\obj\Debug\FPFriender.frmConfig.resources
+C:\Dev\FreedomPop\Server\FPFrienderRunner - Chrome Complete Login\FPFriendRunner\obj\Debug\FPFriender.DoTyper.resources
+C:\Dev\FreedomPop\Server\FPFrienderRunner - Chrome Complete Login\FPFriendRunner\obj\Debug\FPFriender.frmMain.resources
+C:\Dev\FreedomPop\Server\FPFrienderRunner - Chrome Complete Login\FPFriendRunner\obj\Debug\FPFriender.frmMonitor.resources
+C:\Dev\FreedomPop\Server\FPFrienderRunner - Chrome Complete Login\FPFriendRunner\obj\Debug\FPFriender.Properties.Resources.resources
+C:\Dev\FreedomPop\Server\FPFrienderRunner - Chrome Complete Login\FPFriendRunner\obj\Debug\FPFriendRunner.csproj.GenerateResource.Cache

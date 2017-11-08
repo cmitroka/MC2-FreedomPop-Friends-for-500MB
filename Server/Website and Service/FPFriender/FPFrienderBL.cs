@@ -147,6 +147,27 @@ public class FPFrienderBL
         string retStat = sqlh.ExecuteSQLParamed("INSERT INTO tblAdInfo (UniqueID,TypeLogged, DateLogged, DateTimeLogged) VALUES (@P0,@P1,@P2,@P3)", pUniqueID, pTypeLogged, pDateLogged, DateTime.Now.ToString());
         return retStat;
     }
+    public string FPStatus(string pSetPassword, string pSet1or0)
+    {
+        string retVal="";
+        pSetPassword = pSetPassword.ToUpper();
+        if (pSetPassword.Length == 0)
+        {
+            string b = sqlh.GetSingleValuesOfSQL("SELECT pValue FROM tblAdmin WHERE pKey='SystemStatus'");
+            return b;
+        }
+        if (pSetPassword == "CJM" && (pSet1or0=="0" || pSet1or0=="1"))
+        {
+            sqlh.ExecuteSQLParamed("DELETE * FROM tblAdmin WHERE pKey='SystemStatus'");
+            string retStat = sqlh.ExecuteSQLParamed("INSERT INTO tblAdmin (pKey,pValue) VALUES (@P0,@P1)", "SystemStatus", pSet1or0);
+            retVal="System Status Set to "+pSet1or0;
+        }
+        else
+        {
+            retVal = "System Status NOT Set; must be 0 (theres a problem) or 1 (all good).  Or password is wrong.";
+        }
+        return retVal;
+    }
 
     public string MakeRequest(string pUUID, string pRequestType, string pEmail)
     {
