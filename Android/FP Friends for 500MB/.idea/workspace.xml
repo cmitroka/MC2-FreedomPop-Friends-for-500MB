@@ -17,41 +17,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="886def61-1336-4785-aad0-ea12b21a4b91" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/android/support/constraint/R$attr.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/android/support/constraint/R$attr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/resourceHashesCache.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/android/support/constraint/R$id.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/android/support/constraint/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/android/support/constraint/R$styleable.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/android/support/constraint/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/android/support/v7/appcompat/R$anim.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/android/support/v7/appcompat/R$anim.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/android/support/v7/appcompat/R$attr.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/android/support/v7/appcompat/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/android/support/v7/appcompat/R$bool.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/android/support/v7/appcompat/R$bool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/android/support/v7/appcompat/R$color.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/android/support/v7/appcompat/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/android/support/v7/appcompat/R$dimen.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/android/support/v7/appcompat/R$dimen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/android/support/v7/appcompat/R$drawable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/android/support/v7/appcompat/R$integer.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/android/support/v7/appcompat/R$integer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/android/support/v7/appcompat/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/android/support/v7/appcompat/R$string.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/android/support/v7/appcompat/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/android/support/v7/appcompat/R$style.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/android/support/v7/appcompat/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/android/support/v7/appcompat/R$styleable.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/android/support/v7/appcompat/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/google/android/gms/R$attr.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/google/android/gms/R$attr.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/google/android/gms/R$id.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/google/android/gms/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/google/android/gms/R$integer.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/google/android/gms/R$integer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/google/android/gms/R$string.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/google/android/gms/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/google/android/gms/R$style.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/google/android/gms/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/google/android/gms/R$styleable.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/google/android/gms/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/Confirmation.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/Confirmation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/ContactUs.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/ContactUs.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/AppSpecific.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/AppSpecific.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/HowAdsWork.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/HowAdsWork.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/InAppPurchase.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/InAppPurchase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/R$anim.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/R$anim.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/R$attr.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/R$bool.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/R$bool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/R$color.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/R$dimen.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/R$dimen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/R$drawable.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/R$drawable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/R$id.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/R$id.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/R$integer.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/R$integer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/R$layout.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/R$layout.class" />
@@ -62,98 +42,109 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/R$styleable.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/R$styleable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/Splashscreen$1$1.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/Splashscreen$1$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/Splashscreen$1.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/Splashscreen$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/Splashscreen$2.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/Splashscreen$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/Splashscreen.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/Splashscreen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/SubmitEmailForFriends$1.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/SubmitEmailForFriends$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/SubmitEmailForFriends$2.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/SubmitEmailForFriends$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/SubmitEmailForFriends.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/SubmitEmailForFriends.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/WatchInternalAd.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/WatchInternalAd.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/WatchRewardedAd.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/WatchRewardedAd.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/WhatIsFPF500.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/WhatIsFPF500.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/WhatsTheCatch.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/debug/com/mc2techservices/fpfriendsfor500mb/WhatsTheCatch.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/android/support/constraint/R$attr.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/android/support/constraint/R$attr.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/android/support/constraint/R$id.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/android/support/constraint/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/android/support/constraint/R$styleable.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/android/support/constraint/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/android/support/v7/appcompat/R$anim.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/android/support/v7/appcompat/R$anim.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/android/support/v7/appcompat/R$attr.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/android/support/v7/appcompat/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/android/support/v7/appcompat/R$bool.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/android/support/v7/appcompat/R$bool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/android/support/v7/appcompat/R$color.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/android/support/v7/appcompat/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/android/support/v7/appcompat/R$dimen.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/android/support/v7/appcompat/R$dimen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/android/support/v7/appcompat/R$drawable.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/android/support/v7/appcompat/R$drawable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/android/support/v7/appcompat/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/android/support/v7/appcompat/R$integer.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/android/support/v7/appcompat/R$integer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/android/support/v7/appcompat/R$layout.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/android/support/v7/appcompat/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/android/support/v7/appcompat/R$string.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/android/support/v7/appcompat/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/android/support/v7/appcompat/R$style.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/android/support/v7/appcompat/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/android/support/v7/appcompat/R$styleable.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/android/support/v7/appcompat/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/google/android/gms/R$attr.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/google/android/gms/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/google/android/gms/R$id.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/google/android/gms/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/google/android/gms/R$integer.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/google/android/gms/R$integer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/google/android/gms/R$string.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/google/android/gms/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/google/android/gms/R$style.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/google/android/gms/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/google/android/gms/R$styleable.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/google/android/gms/R$styleable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/Confirmation.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/Confirmation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/ContactUs.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/ContactUs.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/AppSpecific.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/AppSpecific.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/BuildConfig.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/BuildConfig.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/HowAdsWork.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/HowAdsWork.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/InAppPurchase.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/InAppPurchase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/R$anim.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/R$anim.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/R$attr.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/R$attr.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/R$bool.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/R$bool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/R$color.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/R$dimen.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/R$dimen.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/R$drawable.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/R$drawable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/R$id.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/R$integer.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/R$integer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/R$layout.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/R$menu.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/R$menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/R$mipmap.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/R$mipmap.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/R$string.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/R$style.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/R$style.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/R$styleable.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/R$styleable.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/Splashscreen$1$1.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/Splashscreen$1$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/Splashscreen$1.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/Splashscreen$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/Splashscreen$2.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/Splashscreen$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/Splashscreen.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/Splashscreen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/SubmitEmailForFriends$1.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/SubmitEmailForFriends$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/SubmitEmailForFriends$2.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/SubmitEmailForFriends$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/SubmitEmailForFriends.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/SubmitEmailForFriends.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/WatchInternalAd.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/WatchInternalAd.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/WatchRewardedAd.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/WatchRewardedAd.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/WhatIsFPF500.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/WhatIsFPF500.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/WhatsTheCatch.class" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/classes/release/com/mc2techservices/fpfriendsfor500mb/WhatsTheCatch.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/incremental/compileDebugAidl/dependency.store" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/incremental/compileDebugAidl/dependency.store" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/incremental/compileReleaseAidl/dependency.store" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/incremental/compileReleaseAidl/dependency.store" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/incremental/packageDebug/debug/zip-cache/mT+YzkTtE+nTMO3l1Ae1dIqOPHQ=" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/incremental/packageDebug/debug/zip-cache/mT+YzkTtE+nTMO3l1Ae1dIqOPHQ=" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/res/debug/resources-debug.ap_" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/res/debug/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/res/merged/debug/layout_activity_submit_email_for_friends.xml.flat" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/res/merged/debug/layout_activity_submit_email_for_friends.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/res/merged/release/layout_activity_submit_email_for_friends.xml.flat" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/res/merged/release/layout_activity_submit_email_for_friends.xml.flat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/res/release/resources-release.ap_" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/res/release/resources-release.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dex/release/0/classes.dex" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dex/release/0/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/android/support/constraint/R$id.dex" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/android/support/constraint/R$id.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/android/support/v7/appcompat/R$id.dex" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/android/support/v7/appcompat/R$id.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/com/google/android/gms/R$id.dex" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/com/google/android/gms/R$id.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/com/mc2techservices/fpfriendsfor500mb/AppSpecific.dex" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/com/mc2techservices/fpfriendsfor500mb/AppSpecific.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/com/mc2techservices/fpfriendsfor500mb/HowAdsWork.dex" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/com/mc2techservices/fpfriendsfor500mb/HowAdsWork.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/com/mc2techservices/fpfriendsfor500mb/InAppPurchase.dex" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/com/mc2techservices/fpfriendsfor500mb/InAppPurchase.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/com/mc2techservices/fpfriendsfor500mb/R$id.dex" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/com/mc2techservices/fpfriendsfor500mb/R$id.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/com/mc2techservices/fpfriendsfor500mb/R$integer.dex" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/com/mc2techservices/fpfriendsfor500mb/R$integer.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/com/mc2techservices/fpfriendsfor500mb/R$layout.dex" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/com/mc2techservices/fpfriendsfor500mb/R$layout.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/com/mc2techservices/fpfriendsfor500mb/R$menu.dex" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/com/mc2techservices/fpfriendsfor500mb/R$menu.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/com/mc2techservices/fpfriendsfor500mb/R$mipmap.dex" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/com/mc2techservices/fpfriendsfor500mb/R$mipmap.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/com/mc2techservices/fpfriendsfor500mb/R$string.dex" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/com/mc2techservices/fpfriendsfor500mb/R$string.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/com/mc2techservices/fpfriendsfor500mb/R$style.dex" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/com/mc2techservices/fpfriendsfor500mb/R$style.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/com/mc2techservices/fpfriendsfor500mb/R$styleable.dex" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/com/mc2techservices/fpfriendsfor500mb/R$styleable.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/com/mc2techservices/fpfriendsfor500mb/Splashscreen$1$1.dex" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/com/mc2techservices/fpfriendsfor500mb/Splashscreen$1$1.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/com/mc2techservices/fpfriendsfor500mb/Splashscreen$1.dex" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/com/mc2techservices/fpfriendsfor500mb/Splashscreen$1.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/com/mc2techservices/fpfriendsfor500mb/Splashscreen$2.dex" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/com/mc2techservices/fpfriendsfor500mb/Splashscreen$2.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/com/mc2techservices/fpfriendsfor500mb/Splashscreen.dex" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/com/mc2techservices/fpfriendsfor500mb/Splashscreen.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/com/mc2techservices/fpfriendsfor500mb/SubmitEmailForFriends$1.dex" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/com/mc2techservices/fpfriendsfor500mb/SubmitEmailForFriends$1.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/com/mc2techservices/fpfriendsfor500mb/SubmitEmailForFriends$2.dex" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/com/mc2techservices/fpfriendsfor500mb/SubmitEmailForFriends$2.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/com/mc2techservices/fpfriendsfor500mb/SubmitEmailForFriends.dex" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/com/mc2techservices/fpfriendsfor500mb/SubmitEmailForFriends.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/com/mc2techservices/fpfriendsfor500mb/WatchInternalAd.dex" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/com/mc2techservices/fpfriendsfor500mb/WatchInternalAd.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/com/mc2techservices/fpfriendsfor500mb/WatchRewardedAd.dex" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/com/mc2techservices/fpfriendsfor500mb/WatchRewardedAd.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/com/mc2techservices/fpfriendsfor500mb/WhatIsFPF500.dex" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/com/mc2techservices/fpfriendsfor500mb/WhatIsFPF500.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/com/mc2techservices/fpfriendsfor500mb/WhatsTheCatch.dex" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexBuilder/debug/80/com/mc2techservices/fpfriendsfor500mb/WhatsTheCatch.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexMerger/debug/0/classes.dex" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/dexMerger/debug/0/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/preDex/release/0.jar" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/transforms/preDex/release/0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/outputs/apk/debug/FP Friends-debug.apk" afterPath="$PROJECT_DIR$/FP Friends/build/outputs/apk/debug/FP Friends-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/outputs/apk/release/FP Friends-release-unsigned.apk" afterPath="$PROJECT_DIR$/FP Friends/build/outputs/apk/release/FP Friends-release-unsigned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends for 500MB.iml" afterPath="$PROJECT_DIR$/FP Friends for 500MB.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/FP Friends.iml" afterPath="$PROJECT_DIR$/FP Friends/FP Friends.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build.gradle" afterPath="$PROJECT_DIR$/FP Friends/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/generated/source/aidl/debug/com/android/vending/billing/IInAppBillingService.java" afterPath="$PROJECT_DIR$/FP Friends/build/generated/source/aidl/debug/com/android/vending/billing/IInAppBillingService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/generated/source/aidl/release/com/android/vending/billing/IInAppBillingService.java" afterPath="$PROJECT_DIR$/FP Friends/build/generated/source/aidl/release/com/android/vending/billing/IInAppBillingService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/generated/source/buildConfig/release/com/mc2techservices/fpfriendsfor500mb/BuildConfig.java" afterPath="$PROJECT_DIR$/FP Friends/build/generated/source/buildConfig/release/com/mc2techservices/fpfriendsfor500mb/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/generated/source/r/androidTest/debug/android/support/test/espresso/R.java" afterPath="$PROJECT_DIR$/FP Friends/build/generated/source/r/androidTest/debug/android/support/test/espresso/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/generated/source/r/androidTest/debug/android/support/test/rule/R.java" afterPath="$PROJECT_DIR$/FP Friends/build/generated/source/r/androidTest/debug/android/support/test/rule/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/generated/source/r/androidTest/debug/com/mc2techservices/fpfriendsfor500mb/test/R.java" afterPath="$PROJECT_DIR$/FP Friends/build/generated/source/r/androidTest/debug/com/mc2techservices/fpfriendsfor500mb/test/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/generated/source/r/debug/android/support/constraint/R.java" afterPath="$PROJECT_DIR$/FP Friends/build/generated/source/r/debug/android/support/constraint/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/FP Friends/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/generated/source/r/debug/com/google/android/gms/R.java" afterPath="$PROJECT_DIR$/FP Friends/build/generated/source/r/debug/com/google/android/gms/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/generated/source/r/debug/com/mc2techservices/fpfriendsfor500mb/R.java" afterPath="$PROJECT_DIR$/FP Friends/build/generated/source/r/debug/com/mc2techservices/fpfriendsfor500mb/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/generated/source/r/release/android/support/constraint/R.java" afterPath="$PROJECT_DIR$/FP Friends/build/generated/source/r/release/android/support/constraint/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/generated/source/r/release/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/FP Friends/build/generated/source/r/release/android/support/v7/appcompat/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/generated/source/r/release/com/google/android/gms/R.java" afterPath="$PROJECT_DIR$/FP Friends/build/generated/source/r/release/com/google/android/gms/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/generated/source/r/release/com/mc2techservices/fpfriendsfor500mb/R.java" afterPath="$PROJECT_DIR$/FP Friends/build/generated/source/r/release/com/mc2techservices/fpfriendsfor500mb/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/incremental/mergeDebugAssets/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/blame/res/debug/multi-v2/debug.json" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/blame/res/debug/multi-v2/debug.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/blame/res/debug/single/debug.json" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/blame/res/debug/single/debug.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/blame/res/release/multi-v2/release.json" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/blame/res/release/multi-v2/release.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/blame/res/release/single/release.json" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/blame/res/release/single/release.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/incremental/mergeDebugAndroidTestResources/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/incremental/mergeDebugResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/incremental/mergeDebugShaders/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/incremental/mergeReleaseAssets/merger.xml" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/incremental/mergeReleaseAssets/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/incremental/mergeReleaseJniLibFolders/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/incremental/mergeReleaseResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/incremental/mergeReleaseResources/compile-file-map.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/incremental/mergeReleaseResources/merger.xml" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/incremental/mergeReleaseResources/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/incremental/mergeReleaseShaders/merger.xml" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/incremental/mergeReleaseShaders/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/incremental/packageRelease/release/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/incremental/packageRelease/release/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/manifest/androidTest/debug/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/manifests/full/release/AndroidManifest.xml" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/manifests/full/release/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/manifests/full/release/output.json" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/manifests/full/release/output.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/manifests/instant-run/release/output.json" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/manifests/instant-run/release/output.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/res/release/output.json" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/res/release/output.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/res/symbol-table-with-package/debug/package-aware-r.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/res/symbol-table-with-package/release/package-aware-r.txt" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/res/symbol-table-with-package/release/package-aware-r.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/symbols/androidTest/debug/R.txt" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/symbols/androidTest/debug/R.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/symbols/debug/R.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/intermediates/symbols/release/R.txt" afterPath="$PROJECT_DIR$/FP Friends/build/intermediates/symbols/release/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/FP Friends/build/outputs/logs/manifest-merger-debug-report.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/outputs/logs/manifest-merger-release-report.txt" afterPath="$PROJECT_DIR$/FP Friends/build/outputs/logs/manifest-merger-release-report.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/reports/lint-results-release-fatal.html" afterPath="$PROJECT_DIR$/FP Friends/build/reports/lint-results-release-fatal.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/build/reports/lint-results-release-fatal.xml" afterPath="$PROJECT_DIR$/FP Friends/build/reports/lint-results-release-fatal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/FP Friends/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/AppSpecific.java" afterPath="$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/AppSpecific.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/Splashscreen.java" afterPath="$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/Splashscreen.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/SubmitEmailForFriends.java" afterPath="$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/SubmitEmailForFriends.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FP Friends/src/main/res/layout/activity_submit_email_for_friends.xml" afterPath="$PROJECT_DIR$/FP Friends/src/main/res/layout/activity_submit_email_for_friends.xml" />
     </list>
     <ignored path="FP Friends for 500MB.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -185,36 +176,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FP Friends/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdsMain.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/ads/AdsMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Splashscreen.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Splashscreen.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/Splashscreen.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="83" column="67" lean-forward="false" selection-start-line="83" selection-start-column="62" selection-end-line="83" selection-end-column="67" />
+            <state relative-caret-position="16">
+              <caret line="79" column="31" lean-forward="false" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FP Friends/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-manifest">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppSpecific.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/AppSpecific.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContactUs.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/ContactUs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="25" column="80" lean-forward="false" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="80" />
               <folding>
-                <element signature="e#5253#6856#0" expanded="true" />
-                <element signature="e#6855#6856#0" expanded="true" />
-                <element signature="e#7159#7330#0" expanded="true" />
-                <element signature="e#7329#7330#0" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
+                <element signature="e#453#454#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -223,7 +225,7 @@
       <file leaf-file-name="WhatIsFPF500.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/WhatIsFPF500.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
+            <state relative-caret-position="1760">
               <caret line="132" column="36" lean-forward="false" selection-start-line="132" selection-start-column="36" selection-end-line="132" selection-end-column="36" />
               <folding />
             </state>
@@ -233,7 +235,7 @@
       <file leaf-file-name="HowAdsWork.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/HowAdsWork.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
+            <state relative-caret-position="992">
               <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
               <folding />
             </state>
@@ -243,47 +245,30 @@
       <file leaf-file-name="SubmitEmailForFriends.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/SubmitEmailForFriends.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="133" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
+            <state relative-caret-position="240">
+              <caret line="58" column="29" lean-forward="false" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InAppPurchase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/InAppPurchase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="78" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+      <file leaf-file-name="activity_submit_email_for_friends.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FP Friends/src/main/res/layout/activity_submit_email_for_friends.xml">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="83">
+              <caret line="104" column="34" lean-forward="false" selection-start-line="104" selection-start-column="34" selection-end-line="104" selection-end-column="34" />
               <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WhatsTheCatch.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/WhatsTheCatch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="134" column="49" lean-forward="false" selection-start-line="134" selection-start-column="8" selection-end-line="134" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GeneralFunctions.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/GeneralFunctions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="119" column="13" lean-forward="false" selection-start-line="119" selection-start-column="13" selection-end-line="119" selection-end-column="13" />
-              <folding />
-            </state>
+          <provider selected="true" editor-type-id="android-designer2">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="WebComm.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/WebComm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
+            <state relative-caret-position="1216">
               <caret line="86" column="18" lean-forward="false" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -305,7 +290,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>chkRequestType</find>
       <find>tim</find>
       <find>switch</find>
       <find>ShowWaiting</find>
@@ -332,10 +316,14 @@
       <find>wc1</find>
       <find>...</find>
       <find>//tes</find>
+      <find>AppSpecific.gloUUID</find>
+      <find>ConfigUser</find>
+      <find>init</find>
+      <find>submi</find>
     </findStrings>
   </component>
   <component name="GenerateSignedApkSettings">
-    <option name="KEY_STORE_PATH" value="C:\Users\Administrator\Desktop\Development\keystore.jks" />
+    <option name="KEY_STORE_PATH" value="C:\Dev\keystore.jks" />
     <option name="KEY_ALIAS" value="cjmprk00" />
     <option name="REMEMBER_PASSWORDS" value="true" />
   </component>
@@ -2094,13 +2082,10 @@
         <option value="$PROJECT_DIR$/FP Friends/src/main/res/layout/activity_in_app_purchase.xml" />
         <option value="$PROJECT_DIR$/FP Friends/src/main/res/layout/activity_splashscreen.xml" />
         <option value="$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/WhatIsFPF500.java" />
-        <option value="$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/SubmitEmailForFriends.java" />
-        <option value="$PROJECT_DIR$/FP Friends/src/main/res/layout/activity_submit_email_for_friends.xml" />
         <option value="$PROJECT_DIR$/FP Friends/src/main/res/layout/activity_watch_rewarded_ad.xml" />
         <option value="$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/how_ads_work.java" />
         <option value="$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/WhatsTheCatch.java" />
         <option value="$PROJECT_DIR$/FP Friends/src/main/res/layout/activity_what_is_fpf500.xml" />
-        <option value="$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/AppSpecific.java" />
         <option value="$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/ads/Main.java" />
         <option value="$PROJECT_DIR$/FP Friends/src/main/res/layout/activity_how_ads_work.xml" />
         <option value="$PROJECT_DIR$/FP Friends/src/main/res/layout/activity_watch_internal_ad.xml" />
@@ -2108,19 +2093,21 @@
         <option value="$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/HowAdsWork.java" />
         <option value="$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/WatchInternalAd.java" />
         <option value="$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/ads/AdsMain.java" />
-        <option value="$PROJECT_DIR$/FP Friends/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/GeneralFunctions.java" />
         <option value="$PROJECT_DIR$/FP Friends/build.gradle" />
         <option value="$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/WebCall.java" />
         <option value="$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/Foo.java" />
         <option value="$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/WebComm.java" />
+        <option value="$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/AppSpecific.java" />
         <option value="$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/Splashscreen.java" />
+        <option value="$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/SubmitEmailForFriends.java" />
+        <option value="$PROJECT_DIR$/FP Friends/src/main/res/layout/activity_submit_email_for_friends.xml" />
+        <option value="$PROJECT_DIR$/FP Friends/src/main/AndroidManifest.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-17" />
-    <option name="y" value="6" />
+    <option name="y" value="2" />
     <option name="width" value="1598" />
     <option name="height" value="870" />
   </component>
@@ -2142,11 +2129,44 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FP Friends for 500MB" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FP Friends" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FP Friends for 500MB" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FP Friends" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidResFolderTypeNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="FP Friends for 500MB" />
@@ -2218,10 +2238,6 @@
               <option name="myItemId" value="mc2techservices" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ads" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -2241,16 +2257,29 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FP Friends for 500MB" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FP Friends" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manifests" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidManifestsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="device.picker.selection" value="Nexus_5X_API_24" />
-    <property name="last_opened_file_path" value="C:/test/Single Screen Barcodes" />
-    <property name="ExportApk.ApkPath" value="C:\Users\Administrator\Desktop\Development\FreedomPop\Android\Builds" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../keystore.jks" />
+    <property name="ExportApk.ApkPath" value="C:\Dev\FreedomPop\Android\Builds" />
     <property name="ExportApk.Flavors" value="" />
     <property name="ExportApk.BuildType" value="release" />
     <property name="ExportApk.SignV1" value="true" />
@@ -2261,6 +2290,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="android.project.structure.last.selected" value="FP Friends" />
     <property name="android.project.structure.proportion" value="0.15" />
+    <property name="AnalyzeApkAction.lastApkPath" value="$PROJECT_DIR$/FP Friends/build/outputs/apk/debug/FP Friends-debug.apk" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -2363,7 +2393,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1510125589494" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1510201854465" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2411,7 +2441,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1510125589494" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1510201854465" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2443,27 +2473,6 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="JarApplication" factoryName="JAR Application">
@@ -2594,7 +2603,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1510125589495" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1510201854466" />
       </method>
     </configuration>
     <configuration default="false" name="FP Friends" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
@@ -2643,7 +2652,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1510125589495" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1510201854466" />
       </method>
     </configuration>
     <list size="2">
@@ -2717,32 +2726,31 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-17" y="6" width="1598" height="870" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="2" width="1598" height="870" extended-state="0" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5661157" sideWeight="0.48948374" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29063362" sideWeight="0.4857881" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3677686" sideWeight="0.48062015" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24967907" sideWeight="0.50784314" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45316803" sideWeight="0.26679587" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3677686" sideWeight="0.51937985" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33471075" sideWeight="0.49458253" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971507" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45316803" sideWeight="0.7332041" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45179063" sideWeight="0.72932816" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20865633" sideWeight="0.48474577" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1888587" sideWeight="0.4825839" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32991013" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24967907" sideWeight="0.49215686" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6763085" sideWeight="0.8591731" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6763085" sideWeight="0.8591731" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24967907" sideWeight="0.5143824" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2755,7 +2763,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32991013" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1888587" sideWeight="0.4825839" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -2776,13 +2784,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FP Friends/src/main/java/com/android/vending/billing/util/SkuDetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FP Friends/src/main/java/com/android/vending/billing/util/Base64DecoderException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2868,13 +2869,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/ContactUs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FP Friends/src/main/res/menu/menu_main.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -2928,16 +2922,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="424">
           <caret line="36" column="24" lean-forward="false" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FP Friends/src/main/res/layout/activity_submit_email_for_friends.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
@@ -3026,17 +3010,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FP Friends/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="38" column="17" lean-forward="false" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/WatchRewardedAd.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -3064,14 +3037,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/AppSpecific.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FP Friends/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -3092,29 +3057,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="1054" column="49" lean-forward="false" selection-start-line="1054" selection-start-column="49" selection-end-line="1054" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/GeneralFunctions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
+        <state relative-caret-position="1344">
           <caret line="119" column="13" lean-forward="false" selection-start-line="119" selection-start-column="13" selection-end-line="119" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/Foo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="120" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/Foo.java" />
     <entry file="file://$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/InAppPurchase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
+        <state relative-caret-position="1056">
           <caret line="78" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
           <folding />
         </state>
@@ -3122,23 +3079,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/WhatsTheCatch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
+        <state relative-caret-position="1776">
           <caret line="134" column="49" lean-forward="false" selection-start-line="134" selection-start-column="8" selection-end-line="134" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/SubmitEmailForFriends.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="133" column="0" lean-forward="false" selection-start-line="124" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/WhatIsFPF500.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
+        <state relative-caret-position="1760">
           <caret line="132" column="36" lean-forward="false" selection-start-line="132" selection-start-column="36" selection-end-line="132" selection-end-column="36" />
           <folding />
         </state>
@@ -3146,7 +3095,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/HowAdsWork.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
+        <state relative-caret-position="992">
           <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
           <folding />
         </state>
@@ -3154,7 +3103,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/WebComm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
+        <state relative-caret-position="1216">
           <caret line="86" column="18" lean-forward="false" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -3164,17 +3113,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/Splashscreen.java">
+    <entry file="file://$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/ContactUs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="83" column="67" lean-forward="false" selection-start-line="83" selection-start-column="62" selection-end-line="83" selection-end-column="67" />
+        <state relative-caret-position="320">
+          <caret line="25" column="80" lean-forward="false" selection-start-line="25" selection-start-column="61" selection-end-line="25" selection-end-column="80" />
           <folding>
-            <element signature="e#5253#6856#0" expanded="true" />
-            <element signature="e#6855#6856#0" expanded="true" />
-            <element signature="e#7159#7330#0" expanded="true" />
-            <element signature="e#7329#7330#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/AppSpecific.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/SubmitEmailForFriends.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="58" column="29" lean-forward="false" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FP Friends/src/main/res/layout/activity_submit_email_for_friends.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="104" column="34" lean-forward="false" selection-start-line="104" selection-start-column="34" selection-end-line="104" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FP Friends/src/main/java/com/mc2techservices/fpfriendsfor500mb/Splashscreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="79" column="31" lean-forward="false" selection-start-line="79" selection-start-column="8" selection-end-line="79" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FP Friends/build/outputs/apk/debug/FP Friends-debug.apk">
+      <provider selected="true" editor-type-id="apk-viewer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FP Friends/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
       </provider>
     </entry>
   </component>

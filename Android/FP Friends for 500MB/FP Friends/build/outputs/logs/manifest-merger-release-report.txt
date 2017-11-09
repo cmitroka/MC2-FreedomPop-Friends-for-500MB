@@ -28,7 +28,7 @@ INJECTED from C:\Dev\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main
 	xmlns:android
 		ADDED from C:\Dev\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		ADDED from C:\Dev\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:4:11-34
+		ADDED from C:\Dev\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml:4:11-35
 		INJECTED from C:\Dev\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml
 		INJECTED from C:\Dev\FreedomPop\Android\FP Friends for 500MB\FP Friends\src\main\AndroidManifest.xml
 uses-permission#com.android.vending.BILLING

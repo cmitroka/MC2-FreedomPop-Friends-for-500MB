@@ -563,10 +563,10 @@ public final class R {
         public static final int always = 0x7f070018;
         public static final int beginning = 0x7f07001a;
         public static final int bottom = 0x7f07001b;
-        public static final int buttonPanel = 0x7f070025;
-        public static final int cancel_action = 0x7f070026;
-        public static final int checkbox = 0x7f070028;
-        public static final int chronometer = 0x7f070029;
+        public static final int buttonPanel = 0x7f070024;
+        public static final int cancel_action = 0x7f070025;
+        public static final int checkbox = 0x7f070027;
+        public static final int chronometer = 0x7f070028;
         public static final int collapseActionView = 0x7f070031;
         public static final int contentPanel = 0x7f070032;
         public static final int custom = 0x7f070033;

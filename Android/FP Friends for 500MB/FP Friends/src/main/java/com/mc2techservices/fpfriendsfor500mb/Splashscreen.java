@@ -77,6 +77,7 @@ public class Splashscreen extends Activity {
     private void Init()
     {
         AppSpecific.gloPackageName = getApplicationContext().getPackageName();
+        AppSpecific.gloBlockFRs="0";
         AppSpecific.gloLD="XZQX";
         AppSpecific.gloPD="~_~";
         AppSpecific.gloxmlns= "xmlns=\"fpfriender.mc2techservices.com\">";
@@ -166,6 +167,7 @@ public class Splashscreen extends Activity {
                                 }
                                 else
                                 {
+                                    AppSpecific.gloBlockFRs="1";
                                     ShowIssue("FP has done something preventing the friend request processor to fail.  You can still use the app, but for now - friend requests will be disabled.  Should be fixed in a day.");
                                 }
                             }

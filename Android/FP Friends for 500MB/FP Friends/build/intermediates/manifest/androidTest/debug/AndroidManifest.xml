@@ -13,7 +13,7 @@
         android:label="Tests for com.mc2techservices.fpfriendsfor500mb"
         android:targetPackage="com.mc2techservices.fpfriendsfor500mb" />
 
-    <application>
+    <application android:debuggable="true" >
         <uses-library android:name="android.test.runner" />
     </application>
 

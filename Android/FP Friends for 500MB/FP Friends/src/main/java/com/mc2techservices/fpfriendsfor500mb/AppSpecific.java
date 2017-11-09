@@ -9,5 +9,5 @@ public class AppSpecific {
 	public static String gloLD;
 	public static String gloPD;
 	public static String gloAdsAllowed;
-
+	public static String gloBlockFRs;
 }

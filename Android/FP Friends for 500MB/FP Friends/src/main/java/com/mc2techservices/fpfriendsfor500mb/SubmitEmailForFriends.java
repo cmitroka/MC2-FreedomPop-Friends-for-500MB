@@ -9,6 +9,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -22,7 +23,7 @@ public class SubmitEmailForFriends extends Activity  {
     int iRequestsAvailable;
     TextView tvCreditsAvailable;
     EditText etEmailRequestsTo;
-
+    Button cmdSubmit;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,8 +52,10 @@ public class SubmitEmailForFriends extends Activity  {
     }
     private void InitSceen()
     {
+        cmdSubmit=(Button) findViewById(R.id.cmdSubmit);
         tvCreditsAvailable= (TextView) findViewById(R.id.tvCreditsAvailable);
         etEmailRequestsTo=(EditText) findViewById(R.id.etEmailRequestsTo);
+        if (AppSpecific.gloBlockFRs.equals("1")) cmdSubmit.setEnabled(false);
         GetCreditAvailable();
         ddRequestType = (Spinner)findViewById(R.id.ddRequestType);
         if (iRequestsAvailable>=0 && iRequestsAvailable<=4)
