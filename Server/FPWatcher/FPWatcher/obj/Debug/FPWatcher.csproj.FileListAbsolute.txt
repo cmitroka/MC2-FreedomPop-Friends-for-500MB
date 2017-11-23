@@ -34,3 +34,6 @@ C:\Users\Administrator\Desktop\Development\FreedomPop\Server\FPWatcher\FPWatcher
 C:\Users\Administrator\Desktop\Development\FreedomPop\Server\FPWatcher\FPWatcher\obj\Debug\FPWatcher.Properties.Resources.resources
 C:\Users\Administrator\Desktop\Development\FreedomPop\Server\FPWatcher\FPWatcher\obj\Debug\FPWatcher.csproj.GenerateResource.Cache
 C:\Users\Administrator\Desktop\Development\FreedomPop\Server\FPWatcher\FPWatcher\obj\Debug\FPWatcher.csprojResolveAssemblyReference.cache
+C:\Dev\FreedomPop\Server\FPWatcher\FPWatcher\bin\Debug\FPWatcher.exe.config
+C:\Dev\FreedomPop\Server\FPWatcher\FPWatcher\obj\Debug\FPWatcher.exe
+C:\Dev\FreedomPop\Server\FPWatcher\FPWatcher\obj\Debug\FPWatcher.pdb
