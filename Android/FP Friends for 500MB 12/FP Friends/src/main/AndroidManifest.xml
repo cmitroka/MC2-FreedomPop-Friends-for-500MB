@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.mc2techservices.fpfriendsfor500mb"
+          android:versionCode="12"
+          android:versionName="2017.02.13">
+    >
+    <uses-permission android:name="com.android.vending.BILLING"/>
+
+    <application
+        android:name=".fpfriendsfor500mb"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Splashscreen"
+            android:screenOrientation="portrait"
+            android:noHistory="true"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        </activity>
+        <activity android:name=".WhatIsFPF500"
+                  android:screenOrientation="portrait"
+                  android:allowBackup="true">
+        </activity>
+        <activity android:name=".WhatsTheCatch"
+                  android:screenOrientation="portrait"
+                  android:allowBackup="true">
+        </activity>
+        <activity android:name=".SubmitEmailForFriends"
+                  android:screenOrientation="portrait"
+                  android:allowBackup="true">
+        </activity>
+        <activity android:name=".InAppPurchase"
+                  android:screenOrientation="portrait"
+                  android:allowBackup="true">
+        </activity>
+        <activity android:name=".Confirmation"
+                  android:screenOrientation="portrait"
+                  android:allowBackup="true">
+        </activity>
+        <activity android:name=".ContactUs"
+                  android:screenOrientation="portrait"
+                  android:allowBackup="true">
+        </activity>
+        <activity android:name=".HowAdsWork"
+                  android:screenOrientation="portrait"
+                  android:allowBackup="true">
+        </activity>
+        <activity android:name=".WatchRewardedAd"
+                  android:screenOrientation="portrait"
+                  android:allowBackup="true"
+                  android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        </activity>
+        <activity android:name=".WatchInternalAd"
+                  android:screenOrientation="portrait"
+                  android:allowBackup="true"
+                  android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        </activity>
+        <activity android:name=".PreLaunchActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
