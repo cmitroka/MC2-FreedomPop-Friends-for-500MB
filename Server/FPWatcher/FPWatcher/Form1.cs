@@ -106,6 +106,12 @@ namespace FPWatcher
         private void Run()
         {
             tmrRunning.Enabled = false;
+            HandleFP();
+            HandlePCS();
+            tmrRunning.Enabled = true;
+        }
+        private void HandleFP()
+        {
             string[] filePaths;
             try
             {
@@ -136,8 +142,8 @@ namespace FPWatcher
                 string arguments = templine;
                 p.StartInfo.FileName = fileName;
                 p.StartInfo.Arguments = arguments;
-                try{bool isStarted = p.Start();}
-                catch (Exception exStart){}
+                try { bool isStarted = p.Start(); }
+                catch (Exception exStart) { }
                 this.Text = "Waiting for Friender to Exit";
                 p.WaitForExit();
                 String pProcessedFolder = "";
@@ -162,7 +168,27 @@ namespace FPWatcher
                     catch (Exception exDel) { }
                 } while (File.Exists(file));
             }
-            tmrRunning.Enabled = true;
+        }
+        private void HandlePCS()
+        {
+            StreamReader sr;
+            string pRqIn=txtCubeRqLoc.Text + "\\SolveMe.bat";
+            try
+            {
+                sr = new StreamReader(pRqIn);
+                sr.Close();
+            }
+            catch (Exception ex)
+            {
+                return;
+            }
+            System.Diagnostics.Process p = new System.Diagnostics.Process();
+            p.StartInfo.FileName = pRqIn;
+            p.Start();
+            p.WaitForExit();
+            System.Threading.Thread.Sleep(500);
+            File.Delete(pRqIn);
+            this.Text = "Exit";
         }
 
         private void tmrRunning_Tick(object sender, EventArgs e)
