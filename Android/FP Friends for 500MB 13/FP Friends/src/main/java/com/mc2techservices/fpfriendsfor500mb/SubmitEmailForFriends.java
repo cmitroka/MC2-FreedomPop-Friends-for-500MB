@@ -1,0 +1,231 @@
+package com.mc2techservices.fpfriendsfor500mb;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.AsyncTask;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.Spinner;
+import android.widget.TextView;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
+
+
+public class SubmitEmailForFriends extends Activity  {
+    String[] iRequestType;
+    Spinner ddRequestType;
+    int iRequestsAvailable;
+    TextView tvCreditsAvailable;
+    EditText etEmailRequestsTo;
+    Button cmdSubmit;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        Log.i("App","onCreate");
+        setContentView(R.layout.activity_submit_email_for_friends);
+    }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+        return true;
+    }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        Intent intent = new Intent(this, ContactUs.class);
+        startActivity(intent);
+        return true;
+    }
+
+    @Override
+    public void onResume () {
+        super.onResume();
+        Log.i("App","onResume");
+        iRequestsAvailable=0;
+        InitSceen();
+        //InitSceen();
+    }
+    private void ShowIssue()
+    {
+        AlertDialog.Builder alert = new AlertDialog.Builder(this);
+        alert.setTitle("Oops");
+        alert.setMessage("We couldn't get a response from the server.  You may be offline.  Or we're offline.  Either way, try again in a bit and hopefully this will work.");
+        alert.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int whichButton) {
+                finish();
+            }
+        });
+        alert.show();
+    }
+    private void InitSceen()
+    {
+        cmdSubmit=(Button)findViewById(R.id.cmdSubmit);
+        tvCreditsAvailable= (TextView) findViewById(R.id.tvCreditsAvailable);
+        etEmailRequestsTo=(EditText) findViewById(R.id.etEmailRequestsTo);
+        if (AppSpecific.gloBlockFRs.equals("1")) cmdSubmit.setEnabled(false);
+        GetCreditAvailable();
+        ddRequestType = (Spinner)findViewById(R.id.ddRequestType);
+        if (iRequestsAvailable>=0 && iRequestsAvailable<=4)
+        {
+            iRequestType = new String[] { "Need Credits"};
+            etEmailRequestsTo.setEnabled(false);
+
+        }
+        else if (iRequestsAvailable>=5 && iRequestsAvailable<=9)
+        {
+            iRequestType = new String[] { "5 Requests"};
+        }
+        else if (iRequestsAvailable>=10)
+        {
+            iRequestType = new String[] { "10 Requests","5 Requests" };
+        }
+        ConfigDropdown(ddRequestType,iRequestType,"");
+    }
+    private void ConfigDropdown(Spinner pWhichDD, String[] pValArray, String pSetToText)
+    {
+        ArrayAdapter<String> adapterType = new ArrayAdapter<String>(this,
+                android.R.layout.simple_spinner_item, pValArray);
+        pWhichDD.setAdapter(adapterType);
+        int setPosT=adapterType.getPosition(pSetToText);
+        pWhichDD.setSelection(setPosT);
+    }
+    private void ShowConfirmationMessage()
+    {
+        DialogInterface.OnClickListener dialogClickListener = new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                switch (which){
+                    case DialogInterface.BUTTON_POSITIVE:
+                        SubmitRequest();
+                        break;
+
+                    case DialogInterface.BUTTON_NEGATIVE:
+                        //No button clicked
+                        break;
+                }
+            }
+        };
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Hang On!");
+        builder.setMessage("You're 100% sure this email is the FreedomPop account you want to receive the friend requests?").setPositiveButton("Yes - I'm Sure", dialogClickListener)
+                .setNegativeButton("Better double check...", dialogClickListener).show();
+    }
+    private void ShowNoCreditsMessage()
+    {
+        DialogInterface.OnClickListener dialogClickListener = new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                switch (which){
+                    case DialogInterface.BUTTON_POSITIVE:
+                        SwitchScreensBack();
+                        break;
+
+                    case DialogInterface.BUTTON_NEGATIVE:
+                        //No button clicked
+                        break;
+                }
+            }
+        };
+
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setMessage("You need credits to get friend requests; would you like to acquire some now?").setPositiveButton("Yes", dialogClickListener)
+                .setNegativeButton("No", dialogClickListener).show();
+    }
+    private void ShowInvEmailMessage()
+    {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Oops")
+                .setMessage("Email has to be at least 6 characters long, have an @, and have a .")
+                .setNeutralButton("OK", null);
+        AlertDialog dialog = builder.create();
+        dialog.show();
+    }
+    private void SwitchScreensBack()
+    {
+        Intent intent = new Intent(this, WhatsTheCatch.class);
+        startActivity(intent);
+        finish();
+    }
+
+    public void onSubmitClicked(View arg0) {
+        RequestPreProcess();
+    }
+    private void RequestPreProcess()
+    {
+        String pTypeSelected=ddRequestType.getSelectedItem().toString();
+        if (pTypeSelected.equals("Need Credits"))
+        {
+            ShowNoCreditsMessage();
+            return;
+        }
+        else
+        {
+            if (GeneralFunctions.Oth.isValidEmail(etEmailRequestsTo.getText().toString()))
+            {
+                ShowConfirmationMessage();
+            }
+            else
+            {
+                ShowInvEmailMessage();
+            }
+            return;
+        }
+    }
+    private void SubmitRequest()
+    {
+        String pTypeSelected=ddRequestType.getSelectedItem().toString();
+        String pParams="";
+        if (pTypeSelected.equals("Need Credits"))
+        {
+            ShowNoCreditsMessage();
+            return;
+        }
+        else if (pTypeSelected.equals("5 Requests"))
+        {
+            pParams = "pUUID=" + AppSpecific.gloUUID + "&pRequestType=5&pEmail=" + etEmailRequestsTo.getText() ;
+        }
+        else if (pTypeSelected.equals("10 Requests"))
+        {
+            pParams = "pUUID=" + AppSpecific.gloUUID + "&pRequestType=10&pEmail=" + etEmailRequestsTo.getText() ;
+        }
+        String pURL = AppSpecific.gloWebServiceURL + "/MakeRequest";
+        String temp=GeneralFunctions.Comm.NonAsyncWebCall(pURL,pParams);
+        Log.d("APP", "temp: "+temp);
+        SwitchScreensForward();
+    }
+    private void SwitchScreensForward()
+    {
+        Intent intent = new Intent(this, Confirmation.class);
+        startActivity(intent);
+        finish();
+    }
+
+    private void GetCreditAvailable()
+    {
+        //String pParams = "pSeconds=10";
+        //String pURL = "http://www.mc2techservices.com/commonwebservice.asmx/WaitABit";
+
+        String pParams = "pUUID=" + AppSpecific.gloUUID;
+        String pURL = AppSpecific.gloWebServiceURL + "/GetCreditAmount";
+        String temp="";
+        /*
+        AsyncWebCallRunner runner = new AsyncWebCallRunner();
+        runner.execute(pURL, pParams);
+        */
+        temp=GeneralFunctions.Comm.NonAsyncWebCall(pURL,pParams);
+        if (temp.equals(""))
+        {
+            ShowIssue();
+            return;
+        }
+        iRequestsAvailable=GeneralFunctions.Conv.StringToInt(temp);
+        tvCreditsAvailable.setText(temp);
+    }
+}

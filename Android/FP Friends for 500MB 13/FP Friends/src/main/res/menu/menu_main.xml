@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<!--
+    <item
+        android:id="@+id/mnuAbout"
+        android:title="About the App..."/>
+    <item
+        android:id="@+id/mnuGetCredits"
+        android:title="Get Credits"/>
+    <item
+        android:id="@+id/mnuUseCredits"
+        android:title="Get Friends Instantly"/>
+-->
+    <item
+        android:id="@+id/mnuContactUs"
+        android:title="Contact Us"/>
+</menu>
